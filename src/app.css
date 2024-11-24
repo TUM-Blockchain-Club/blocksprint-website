@@ -67,8 +67,23 @@
     --ring: 240 4.9% 83.9%;
   }
 }
- 
+
+@font-face {
+  font-family: "Geist";
+  font-weight: 100 900;
+  src: url(/fonts/Geist-Variable.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "GeistMono";
+  font-weight: 100 900;
+  src: url(/fonts/GeistMono-Variable.woff2) format("woff2");
+}
+
 @layer base {
+  html {
+    font-family: Geist, sans-serif;
+}
   * {
     @apply border-border;
   }
