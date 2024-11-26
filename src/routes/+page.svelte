@@ -55,24 +55,24 @@
 			</div>
 		</div>
 
-		<div class="mx-auto mb-10 mt-32 max-w-6xl px-3 sm:px-6" in:blur={{ delay: 200, duration: 450 }}>
-			<h2 class="text-center text-base font-medium sm:text-lg md:text-xl">
+		<div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6" in:blur={{ delay: 200, duration: 450 }}>
+			<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
 				Former Project Partners <br /><span class="text-muted-foreground">
 					From Startup to Enterprise - we got you.
 				</span>
 			</h2>
+			<Marquee gap="70px" speed={30}>
+				<img src={bosch} alt="Bosch" class="mx-auto h-8" />
+				<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
+				<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
+				<img src={solanabeach} alt="Solanabeach" class="mx-auto h-8" />
+				<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
+			</Marquee>
 		</div>
-
-		<Marquee gap="70px" speed={30}>
-			<img src={bosch} alt="Bosch" class="mx-auto h-8" />
-			<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
-			<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
-			<img src={solanabeach} alt="Solanabeach" class="mx-auto h-8" />
-			<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
-		</Marquee>
 
 		<div
 			class="relative mx-auto mb-10 mt-32 grid max-w-6xl divide-y divide-zinc-800 border border-zinc-950 px-3 sm:px-6"
+			in:blur={{ delay: 200, duration: 500 }}
 		>
 			<div class="grid- grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 				<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
