@@ -7,10 +7,10 @@
 	let menuOpen = false;
 </script>
 
-<header class="fixed top-0 z-50 w-full p-3 pt-5 transition-all duration-300">
+<header class="fixed top-0 z-50 w-full px-3 pt-5 transition-all duration-300 md:px-5">
 	<nav
 		class:h-dvh={menuOpen}
-		class="z-50 mx-auto h-12 w-full rounded-2xl border border-zinc-800 bg-zinc-950 bg-opacity-60 px-3 py-2 backdrop-blur-xl transition-all duration-300"
+		class="z-50 mx-auto h-12 w-full rounded-2xl border border-zinc-800 bg-zinc-950 bg-opacity-60 px-3 py-2 backdrop-blur-xl transition-all duration-300 sm:max-w-6xl"
 	>
 		<div class="flex w-full items-center justify-between">
 			<a

@@ -22,7 +22,7 @@
 <Navbar />
 
 {#if mounted}
-	<main class="w-full pt-20">
+	<main class="w-full pt-40">
 		<div class="mx-auto max-w-6xl px-3 sm:px-6">
 			<h1
 				class="text-center text-4xl font-semibold sm:text-left sm:text-5xl md:text-6xl"
@@ -61,6 +61,8 @@
 					From Startup to Enterprise - we got you.
 				</span>
 			</h2>
+		</div>
+		<div in:blur={{ delay: 200, duration: 500 }}>
 			<Marquee gap="70px" speed={30}>
 				<img src={bosch} alt="Bosch" class="mx-auto h-8" />
 				<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
@@ -72,7 +74,7 @@
 
 		<div
 			class="relative mx-auto mb-10 mt-32 grid max-w-6xl divide-y divide-zinc-800 border border-zinc-950 px-3 sm:px-6"
-			in:blur={{ delay: 200, duration: 500 }}
+			in:blur={{ delay: 200, duration: 550 }}
 		>
 			<div class="grid- grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 				<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
