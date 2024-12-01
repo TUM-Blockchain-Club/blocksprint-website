@@ -1,0 +1,90 @@
+<script>
+	import Footer from '$lib/components/footer.svelte';
+	import {
+		ChevronRight,
+		Key,
+		Telescope,
+		Users,
+		Award,
+		Phone,
+		Briefcase,
+		Handshake,
+		Target
+	} from 'lucide-svelte';
+	import { Button } from '$lib/components/ui/button/index.js';
+	import tbc from '$lib/img/tbc.svg';
+
+	let benefits = [
+		{
+			title: 'Highly Qualified Team',
+			description:
+				'We ensure that the selected participants are qualified to make the project a full success.',
+			icon: Users
+		},
+		{
+			title: 'Marketing and Employer Branding',
+			description:
+				'We attract the best talent through dedicated marketing and position your company as a leader in web3.',
+			icon: Award
+		},
+		{
+			title: 'Continuous Project Support',
+			description:
+				'There will be one dedicated project mentor from TBC who will moderate weekly calls and help if needed.',
+			icon: Phone
+		},
+		{
+			title: 'Future Employment Potential',
+			description: 'Identify potential hires among top-performing students from TUM.',
+			icon: Briefcase
+		},
+		{
+			title: 'Networking Events',
+			description:
+				'We organize team building, kick-off, mid-term, and final pitch events and invite the Munich web3 community.',
+			icon: Handshake
+		},
+		{
+			title: 'Milestones & Goals',
+			description:
+				'We define milestones and a project goal to ensure that all stakeholders are on the same page.',
+			icon: Target
+		}
+	];
+</script>
+
+<div class="grid- grid divide-zinc-800 sm:grid-cols-2">
+	<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
+		<Telescope class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
+	</div>
+	<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
+		<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">BlockSprint</h2>
+		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+			Ambitious students work on a Web3-related problem provided by you, delivering high-quality,
+			innovative solutions. You just need to define the project idea, we handle participant
+			selection, team organization and management. Let’s create an impact together!
+		</p>
+		<Button href="/projects" class="w-fit text-sm" variant="secondary">Become a Partner</Button>
+	</div>
+</div>
+
+<div class="mx-auto mt-32 flex max-w-6xl flex-col px-3 sm:px-6">
+	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
+		Partner Benefits <br /><span class="text-muted-foreground">Lorem</span>
+	</h2>
+	<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
+		{#each benefits as benefit}
+			<div class="items-left flex flex-col justify-center p-4">
+				<div class="h-fit w-fit rounded-full bg-zinc-900 p-4">
+					<benefit.icon class="mx-auto h-6 w-6 text-zinc-50" />
+				</div>
+				<p class="mt-4 text-sm font-semibold text-foreground sm:text-base md:text-lg">
+					{benefit.title}
+				</p>
+				<p class="mt-2 text-sm text-muted-foreground sm:text-base md:text-lg">
+					{benefit.description}
+				</p>
+			</div>
+		{/each}
+	</div>
+</div>
