@@ -21,10 +21,7 @@
 		class="z-50 mx-auto h-12 w-full rounded-2xl border border-zinc-800 px-3 py-2 transition-all duration-300 sm:max-w-6xl"
 	>
 		<div class="flex w-full items-center justify-between">
-			<a
-				href="https://blocksprint.tum-blockchain.com"
-				class="flex items-center justify-center gap-2"
-			>
+			<a href="/" class="flex items-center justify-center gap-2">
 				<img src={tbc} alt="TUM Blockchain Club" class="h-7 w-7" />
 				<p class="hidden text-foreground sm:flex">TUM BLOCKCHAIN CLUB</p>
 			</a>
