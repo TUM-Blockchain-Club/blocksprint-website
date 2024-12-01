@@ -84,7 +84,7 @@
 					/>
 				</div>
 				<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
-					<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Key Factors</h2>
+					<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Our Vision</h2>
 					<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua.
@@ -94,7 +94,7 @@
 			</div>
 			<div class="grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 				<div class="flex flex-col gap-5 p-4 sm:p-10">
-					<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Our Vision</h2>
+					<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Key Factors</h2>
 					<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua.
