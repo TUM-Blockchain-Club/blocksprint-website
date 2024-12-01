@@ -74,7 +74,7 @@
 		<Telescope class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
 	</div>
 	<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
-		<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Our Vision</h2>
+		<h2 class="text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">Our Vision</h2>
 		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 			Through BlockSprint projects, we bridge the gap between theoretical education and the
 			practical use of Web3 technologies. These projects empower students to tackle real-world
@@ -90,8 +90,8 @@
 <Timeline />
 
 <div class="mx-auto mt-32 flex max-w-6xl flex-col px-3 sm:px-6">
-	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
-		BlockSprint Team <br /><span class="text-muted-foreground">Lorem</span>
+	<h2 class="mb-10 text-center text-lg font-medium sm:text-xl md:text-2xl">
+		BlockSprint Team <br /><span class="text-muted-foreground">Lorem Ipsum</span>
 	</h2>
 	<div class="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:gap-12">
 		{#each members as member}
