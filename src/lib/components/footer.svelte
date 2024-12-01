@@ -1,9 +1,13 @@
 <script>
 	import fattbc from '$lib/img/fattbc.svg';
 	import Button from '$lib/components/ui/button/button.svelte';
+	import { fade, blur } from 'svelte/transition';
 </script>
 
-<footer class="mx-auto mt-16 max-w-6xl p-3 sm:mt-28 md:mt-40">
+<footer
+	class="mx-auto mt-16 max-w-6xl p-3 sm:mt-28 md:mt-40"
+	in:blur={{ delay: 1000, duration: 300 }}
+>
 	<img src={fattbc} alt="TUM Blockchain Club" class="mb-12 w-full md:mb-16" />
 	<div class="flex flex-col justify-between sm:flex-row md:pr-12">
 		<div class="order-2 flex flex-col justify-between sm:order-1">
