@@ -3,6 +3,7 @@
 	import { scramble } from '$lib/utils/scramble.js';
 	import tbc from '$lib/img/tbc.svg';
 	import { Menu, X } from 'lucide-svelte';
+	import { goto } from '$app/navigation';
 
 	let menuOpen = $state(false);
 
@@ -92,11 +93,39 @@
 		</div>
 
 		{#if menuOpen}
-			<div class="mt-10 flex w-full flex-col gap-8">
-				<a href="/projects" class="w-fit">PROJECTS</a>
-				<a href="/applicants" class="w-fit">APPLICANTS</a>
-				<a href="/partners" class="w-fit">PARTNERS</a>
-				<a href="/about" class="w-fit">ABOUT</a>
+			<div class="mt-10 flex w-full flex-col gap-4">
+				<Button
+					onclick={() => {
+						menuOpen = false;
+						goto('/projects');
+					}}
+					class="w-fit text-base"
+					variant="link">PROJECTS</Button
+				>
+				<Button
+					onclick={() => {
+						menuOpen = false;
+						goto('/applicants');
+					}}
+					class="w-fit text-base"
+					variant="link">APPLICANTS</Button
+				>
+				<Button
+					onclick={() => {
+						menuOpen = false;
+						goto('/partners');
+					}}
+					class="w-fit text-base"
+					variant="link">PARTNERS</Button
+				>
+				<Button
+					onclick={() => {
+						menuOpen = false;
+						goto('/about');
+					}}
+					class="w-fit text-base"
+					variant="link">ABOUT</Button
+				>
 			</div>
 		{/if}
 	</nav>
