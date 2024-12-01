@@ -29,10 +29,10 @@
 				<p class="hidden text-foreground sm:flex">TUM BLOCKCHAIN CLUB</p>
 			</a>
 
-			<div class="hidden items-center gap-8 text-sm lg:flex">
+			<div class="hidden items-center gap-4 text-sm md:flex lg:gap-8">
 				<a
 					href="/projects"
-					class="w-[71px] overflow-hidden whitespace-nowrap"
+					class="w-[71px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
 					id="projects"
 					onmouseenter={() => {
 						scramble('projects', 'PROJECTS');
@@ -42,19 +42,19 @@
 					PROJECTS
 				</a>
 				<a
-					href="/students"
-					class="w-[70px] overflow-hidden whitespace-nowrap"
-					id="students"
+					href="/applicants"
+					class="w-[83px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+					id="applicants"
 					onmouseenter={() => {
-						scramble('students', 'STUDENTS');
+						scramble('applicants', 'APPLICANTS');
 					}}
-					onmouseleave={() => (document.getElementById('students').innerText = 'STUDENTS')}
+					onmouseleave={() => (document.getElementById('applicants').innerText = 'APPLICANTS')}
 				>
-					STUDENTS
+					APPLICANTS
 				</a>
 				<a
 					href="/partners"
-					class="w-[71px] overflow-hidden whitespace-nowrap"
+					class="w-[71px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
 					id="partners"
 					onmouseenter={() => {
 						scramble('partners', 'PARTNERS');
@@ -65,7 +65,7 @@
 				</a>
 				<a
 					href="/about"
-					class="w-[47px] overflow-hidden whitespace-nowrap"
+					class="w-[47px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
 					id="about"
 					onmouseenter={() => {
 						scramble('about', 'ABOUT');
@@ -76,11 +76,11 @@
 				</a>
 			</div>
 
-			<div class="flex h-8 items-center sm:gap-4">
-				<Button class="hidden h-8 text-sm sm:flex">Partnership</Button>
+			<div class="flex h-8 items-center md:gap-4">
+				<Button class="flex h-8 text-sm">Partnership</Button>
 				<Button
 					variant="invisible"
-					class="flex items-center justify-center sm:hidden"
+					class="flex items-center justify-center md:hidden"
 					onclick={() => {
 						menuOpen = !menuOpen;
 					}}
@@ -97,7 +97,7 @@
 		{#if menuOpen}
 			<div class="mt-10 flex w-full flex-col gap-8">
 				<a href="/projects" class="w-fit">PROJECTS</a>
-				<a href="/students" class="w-fit">STUDENTS</a>
+				<a href="/applicants" class="w-fit">APPLICANTS</a>
 				<a href="/partners" class="w-fit">PARTNERS</a>
 				<a href="/about" class="w-fit">ABOUT</a>
 			</div>
