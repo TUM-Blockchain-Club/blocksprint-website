@@ -2,7 +2,6 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { fade, blur } from 'svelte/transition';
 	import { onMount } from 'svelte';
-	import { on } from 'svelte/events';
 	import bosch from '$lib/img/bosch.svg';
 	import deloitte from '$lib/img/deloitte.svg';
 	import solanabeach from '$lib/img/solanabeach.svg';
@@ -81,20 +80,32 @@
 			<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
 				<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Our Vision</h2>
 				<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua.
+					Through BlockSprint projects, we bridge the gap between theoretical education and the
+					practical use of Web3 technologies. These projects empower students to tackle real-world
+					challenges presented by industry partners.
+					<br /><br />
+					By fostering collaboration between academia and industry, we drive innovation within the Web3
+					ecosystem: companies unlock groundbreaking solutions, and students emerge as the next generation
+					of Web3 leaders with hands-on experience and deep industry insights.
 				</p>
-				<Button class="w-fit text-sm" variant="secondary">Previous Projects</Button>
+				<Button href="/about" class="w-fit text-sm" variant="secondary">About Us</Button>
 			</div>
 		</div>
 		<div class="grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 			<div class="flex flex-col gap-5 p-4 sm:p-10">
 				<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Key Factors</h2>
 				<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua.
+					Start Date: Beginning of each semester
+					<br />
+					Project Duration: 3 months
+					<br />
+					Time Commitment: 15–20 hours per week
+					<br />
+					Team Structure: 2–4 students per project
+					<br />
+					Compensation: Up to €25 per hour
 				</p>
-				<Button class="w-fit text-sm" variant="secondary">About Us</Button>
+				<Button href="/projects" class="w-fit text-sm" variant="secondary">Projects</Button>
 			</div>
 			<div class="flex items-center justify-center p-4 sm:p-10">
 				<Key class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
