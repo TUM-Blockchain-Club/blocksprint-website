@@ -1,9 +1,9 @@
 <script>
 	import Footer from '$lib/components/footer.svelte';
+	import Timeline from '$lib/components/timeline.svelte';
 	import { ChevronRight, Key, Telescope } from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import tbc from '$lib/img/tbc.svg';
-	import Timeline from '$lib/components/Timeline.svelte';
 
 	let members = [
 		{
@@ -69,7 +69,7 @@
 	];
 </script>
 
-<div class="grid- grid divide-zinc-800 sm:grid-cols-2">
+<div class="grid sm:grid-cols-2">
 	<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
 		<Telescope class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
 	</div>
