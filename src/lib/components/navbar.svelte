@@ -4,13 +4,21 @@
 	import tbc from '$lib/img/tbc.svg';
 	import { Menu, X } from 'lucide-svelte';
 
-	let menuOpen = false;
+	let menuOpen = $state(false);
+
+	$effect(() => {
+		document.body.style.overflow = menuOpen ? 'hidden' : '';
+	});
 </script>
 
-<header class="fixed top-0 z-50 w-full px-3 pt-5 transition-all duration-300 md:px-5">
+<header
+	class:h-dvh={menuOpen}
+	class:pb-5={menuOpen}
+	class="fixed top-0 z-50 w-full bg-zinc-950 bg-opacity-60 px-3 pt-5 backdrop-blur-xl md:px-5"
+>
 	<nav
-		class:h-dvh={menuOpen}
-		class="z-50 mx-auto h-12 w-full rounded-2xl border border-zinc-800 bg-zinc-950 bg-opacity-60 px-3 py-2 backdrop-blur-xl transition-all duration-300 sm:max-w-6xl"
+		class:h-full={menuOpen}
+		class="z-50 mx-auto h-12 w-full rounded-2xl border border-zinc-800 px-3 py-2 transition-all duration-300 sm:max-w-6xl"
 	>
 		<div class="flex w-full items-center justify-between">
 			<a
@@ -67,8 +75,8 @@
 					ABOUT
 				</a>
 			</div>
+
 			<div class="flex h-8 items-center sm:gap-4">
-				<Button class="hidden h-8 text-sm sm:flex" variant="secondary">Contact</Button>
 				<Button class="hidden h-8 text-sm sm:flex">Partnership</Button>
 				<Button
 					variant="invisible"
@@ -85,5 +93,14 @@
 				</Button>
 			</div>
 		</div>
+
+		{#if menuOpen}
+			<div class="mt-10 flex w-full flex-col gap-8">
+				<a href="/projects" class="w-fit">PROJECTS</a>
+				<a href="/students" class="w-fit">STUDENTS</a>
+				<a href="/partners" class="w-fit">PARTNERS</a>
+				<a href="/about" class="w-fit">ABOUT</a>
+			</div>
+		{/if}
 	</nav>
 </header>
