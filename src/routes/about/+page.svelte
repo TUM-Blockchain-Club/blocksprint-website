@@ -3,6 +3,7 @@
 	import { ChevronRight, Key, Telescope } from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import tbc from '$lib/img/tbc.svg';
+	import Timeline from '$lib/components/Timeline.svelte';
 
 	let members = [
 		{
@@ -86,11 +87,13 @@
 	</div>
 </div>
 
+<Timeline />
+
 <div class="mx-auto mt-32 flex max-w-6xl flex-col px-3 sm:px-6">
 	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
 		BlockSprint Team <br /><span class="text-muted-foreground">Lorem</span>
 	</h2>
-	<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:gap-12">
+	<div class="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:gap-12">
 		{#each members as member}
 			<div class="items-left flex flex-col justify-center p-4">
 				<img src={member.image} alt={member.name} class="w-full rounded-lg" />
