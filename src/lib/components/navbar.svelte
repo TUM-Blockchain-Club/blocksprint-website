@@ -27,68 +27,72 @@
 				<p class="hidden text-foreground sm:flex">TUM BLOCKCHAIN CLUB</p>
 			</a>
 
-			<div class="hidden items-center gap-4 text-sm md:flex lg:gap-8">
-				<a
-					href="/projects"
-					class="w-[71px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
-					id="projects"
-					onmouseenter={() => {
-						scramble('projects', 'PROJECTS');
-					}}
-					onmouseleave={() => (document.getElementById('projects').innerText = 'PROJECTS')}
-				>
-					PROJECTS
-				</a>
-				<a
-					href="/applicants"
-					class="w-[83px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
-					id="applicants"
-					onmouseenter={() => {
-						scramble('applicants', 'APPLICANTS');
-					}}
-					onmouseleave={() => (document.getElementById('applicants').innerText = 'APPLICANTS')}
-				>
-					APPLICANTS
-				</a>
-				<a
-					href="/partners"
-					class="w-[71px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
-					id="partners"
-					onmouseenter={() => {
-						scramble('partners', 'PARTNERS');
-					}}
-					onmouseleave={() => (document.getElementById('partners').innerText = 'PARTNERS')}
-				>
-					PARTNERS
-				</a>
-				<a
-					href="/about"
-					class="w-[47px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
-					id="about"
-					onmouseenter={() => {
-						scramble('about', 'ABOUT');
-					}}
-					onmouseleave={() => (document.getElementById('about').innerText = 'ABOUT')}
-				>
-					ABOUT
-				</a>
-			</div>
+			<div class="flex gap-4 lg:gap-8">
+				<div class="hidden items-center gap-4 text-sm md:flex lg:gap-8">
+					<a
+						href="/projects"
+						class="w-[53px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						id="Projects"
+						onmouseenter={() => {
+							scramble('Projects', 'Projects');
+						}}
+						onmouseleave={() => (document.getElementById('Projects').innerText = 'Projects')}
+					>
+						Projects
+					</a>
+					<a
+						href="/applicants"
+						class="w-[68px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						id="Applicants"
+						onmouseenter={() => {
+							scramble('Applicants', 'Applicants');
+						}}
+						onmouseleave={() => (document.getElementById('Applicants').innerText = 'Applicants')}
+					>
+						Applicants
+					</a>
+					<a
+						href="/partners"
+						class="w-[55px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						id="Partners"
+						onmouseenter={() => {
+							scramble('Partners', 'Partners');
+						}}
+						onmouseleave={() => (document.getElementById('Partners').innerText = 'Partners')}
+					>
+						Partners
+					</a>
+					<a
+						href="/about"
+						class="w-[39px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						id="About"
+						onmouseenter={() => {
+							scramble('About', 'About');
+						}}
+						onmouseleave={() => (document.getElementById('About').innerText = 'About')}
+					>
+						About
+					</a>
+				</div>
 
-			<div class="flex h-8 items-center md:gap-4">
-				<Button class="flex h-8 text-sm">Partnership</Button>
-				<Button
-					variant="invisible"
-					class="flex items-center justify-center md:hidden"
-					onclick={() => {
-						menuOpen = !menuOpen;
-					}}
-				>
-					{#if menuOpen}
-						<X class="h-8 w-8 text-zinc-50" />
-					{:else}
-						<Menu class="h-w h-8 text-zinc-50" />
-					{/if}
-				</Button>
+				<div class="flex h-8 items-center md:gap-4">
+					<Button href="https://apply.tum-blockchain.com/industry-partner" class="flex h-8 text-sm"
+						>Partnership</Button
+					>
+					<Button
+						variant="invisible"
+						class="flex items-center justify-center md:hidden"
+						onclick={() => {
+							menuOpen = !menuOpen;
+						}}
+					>
+						{#if menuOpen}
+							<X class="h-8 w-8 text-zinc-50" />
+						{:else}
+							<Menu class="h-w h-8 text-zinc-50" />
+						{/if}
+					</Button>
+				</div>
 			</div>
 		</div>
 

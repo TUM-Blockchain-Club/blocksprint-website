@@ -1,5 +1,5 @@
 export function getRandomChar() {
-	const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]{}|;:',.<>?/";
+	const chars = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+[]{}|;:',.<>?/";
 	return chars[Math.floor(Math.random() * chars.length)];
 }
 
