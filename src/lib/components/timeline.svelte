@@ -23,10 +23,10 @@
 	];
 </script>
 
-<section class="w-full px-4 py-16 md:px-6 lg:px-8">
+<section class="w-full px-4 md:px-6 lg:px-8">
 	<div class="mx-auto max-w-6xl">
-		<h2 class="mb-8 text-center text-lg font-bold sm:mb-12 sm:text-xl md:mb-16 md:text-2xl">
-			BlockSprint: Key Milestones & Timeline
+		<h2 class="mb-10 text-center text-lg font-medium sm:text-xl md:text-2xl">
+			BlockSprint <br /><span class="text-muted-foreground">Key Milestones & Timeline</span>
 		</h2>
 
 		<!-- Desktop Timeline -->
