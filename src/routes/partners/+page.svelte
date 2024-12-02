@@ -68,23 +68,27 @@
 	</div>
 </div>
 
-<div class="mx-auto mt-32 flex max-w-6xl flex-col px-3 sm:px-6">
-	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
-		Partner Benefits <br /><span class="text-muted-foreground">Lorem</span>
-	</h2>
-	<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
-		{#each benefits as benefit}
-			<div class="items-left flex flex-col justify-center p-4">
-				<div class="h-fit w-fit rounded-full bg-zinc-900 p-4">
-					<benefit.icon class="mx-auto h-6 w-6 text-zinc-50" />
+<div>
+	<div class="mx-auto flex max-w-6xl flex-col px-3 sm:px-6">
+		<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
+			Partner Benefits <br /><span class="text-muted-foreground">Lorem</span>
+		</h2>
+		<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2 lg:grid-cols-3">
+			{#each benefits as benefit}
+				<div class="items-left flex h-48 flex-col justify-between bg-zinc-950 p-9">
+					<div class="flex h-fit items-center justify-between">
+						<p class="text-xl font-medium">
+							{benefit.title}
+						</p>
+						<div class="flex h-11 w-11 items-center justify-center rounded-full">
+							<benefit.icon class="mx-auto h-6 w-6 text-zinc-50" />
+						</div>
+					</div>
+					<p class="text-xs text-muted-foreground sm:text-sm">
+						{benefit.description}
+					</p>
 				</div>
-				<p class="mt-4 text-sm font-semibold text-foreground sm:text-base md:text-lg">
-					{benefit.title}
-				</p>
-				<p class="mt-2 text-sm text-muted-foreground sm:text-base md:text-lg">
-					{benefit.description}
-				</p>
-			</div>
-		{/each}
+			{/each}
+		</div>
 	</div>
 </div>
