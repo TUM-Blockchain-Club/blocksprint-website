@@ -18,7 +18,7 @@
 		future of blockchain across industries.
 	</p>
 </div>
-<div in:blur={{ delay: 200, duration: 500 }}>
+<div>
 	<Marquee gap="70px" speed={30}>
 		<img src={bosch} alt="Bosch" class="mx-auto h-8" />
 		<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />

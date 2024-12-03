@@ -1,6 +1,7 @@
 <script>
 	import Footer from '$lib/components/footer.svelte';
 	import Partners from '$lib/components/partners.svelte';
+	import { blur } from 'svelte/transition';
 	import {
 		ChevronRight,
 		Key,
@@ -55,7 +56,7 @@
 	];
 </script>
 
-<div class="grid- grid divide-zinc-800 sm:grid-cols-2">
+<div class="grid- grid divide-zinc-800 sm:grid-cols-2" in:blur={{ delay: 50, duration: 300 }}>
 	<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
 		<h2 class="text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">BlockSprint</h2>
 		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
@@ -70,11 +71,16 @@
 	</div>
 </div>
 
-<Partners />
+<div in:blur={{ delay: 50, duration: 400 }}>
+	<Partners />
+</div>
 
-<div class="mx-auto mt-48 flex max-w-6xl flex-col px-3 sm:px-6">
+<div
+	class="mx-auto mt-48 flex max-w-6xl flex-col px-3 sm:px-6"
+	in:blur={{ delay: 50, duration: 500 }}
+>
 	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
-		Partner Benefits <br /><span class="text-muted-foreground">Lorem</span>
+		Partner Benefits <br /><span class="text-muted-foreground">Lorem Ipsum</span>
 	</h2>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2 lg:grid-cols-3">
 		{#each benefits as benefit}

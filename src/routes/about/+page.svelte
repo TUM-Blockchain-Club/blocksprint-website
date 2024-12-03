@@ -81,7 +81,7 @@
 	];
 </script>
 
-<div class="grid pb-32 sm:grid-cols-2" in:blur={{ delay: 200, duration: 300 }}>
+<div class="grid pb-32 sm:grid-cols-2" in:blur={{ delay: 50, duration: 300 }}>
 	<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
 		<Telescope class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
 	</div>
@@ -99,13 +99,13 @@
 	</div>
 </div>
 
-<div in:blur={{ delay: 200, duration: 400 }}>
+<div in:blur={{ delay: 50, duration: 400 }}>
 	<Timeline />
 </div>
 
 <div
 	class="mx-auto mt-48 flex max-w-6xl flex-col px-3 sm:px-6"
-	in:blur={{ delay: 200, duration: 500 }}
+	in:blur={{ delay: 50, duration: 500 }}
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">
 		Meet the BlockSprint Team

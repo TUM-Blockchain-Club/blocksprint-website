@@ -15,7 +15,7 @@
 	<div class="mx-auto max-w-6xl px-3 sm:px-6">
 		<h1
 			class="text-center text-4xl font-semibold sm:text-left sm:text-5xl md:text-6xl"
-			in:blur={{ delay: 200, duration: 300 }}
+			in:blur={{ delay: 50, duration: 300 }}
 		>
 			The <span
 				class="bg-gradient-to-br from-[#CD31FF] to-fuchsia-700 bg-clip-text text-transparent"
@@ -25,7 +25,7 @@
 		</h1>
 		<p
 			class="mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-left sm:text-lg md:text-xl"
-			in:blur={{ delay: 200, duration: 350 }}
+			in:blur={{ delay: 50, duration: 400 }}
 		>
 			Empowering ambitious students and industry leaders to build a thriving Web3 community of
 			builders. Through 3-month projects with innovative companies, students tackle exciting
@@ -33,7 +33,7 @@
 		</p>
 		<div
 			class="mx-auto mt-5 grid w-fit gap-4 sm:mx-0 sm:flex"
-			in:blur={{ delay: 200, duration: 400 }}
+			in:blur={{ delay: 50, duration: 500 }}
 		>
 			<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
 			<Button
@@ -49,13 +49,13 @@
 		</div>
 	</div>
 
-	<div in:blur={{ delay: 200, duration: 450 }}>
+	<div in:blur={{ delay: 50, duration: 600 }}>
 		<Partners />
 	</div>
 
 	<div
 		class="relative mx-auto mb-10 mt-32 grid max-w-6xl divide-y divide-zinc-800 border border-zinc-950 px-3 sm:px-6"
-		in:blur={{ delay: 200, duration: 550 }}
+		in:blur={{ delay: 50, duration: 700 }}
 	>
 		<div class="grid- grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 			<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
@@ -114,7 +114,7 @@
 				<div></div>
 				<div
 					class="mx-auto grid w-fit gap-4 sm:mx-0 sm:flex"
-					in:blur={{ delay: 200, duration: 400 }}
+					in:blur={{ delay: 50, duration: 800 }}
 				>
 					<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
 					<Button
