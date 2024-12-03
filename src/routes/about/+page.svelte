@@ -3,6 +3,7 @@
 	import Timeline from '$lib/components/timeline.svelte';
 	import { ChevronRight, Key, Telescope } from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
+	import { blur } from 'svelte/transition';
 	import giga from '$lib/img/gigachad.jpeg';
 	import iana from '$lib/img/iana.jpg';
 	import daniel from '$lib/img/daniel.jpg';
@@ -80,7 +81,7 @@
 	];
 </script>
 
-<div class="grid pb-32 sm:grid-cols-2">
+<div class="grid pb-32 sm:grid-cols-2" in:blur={{ delay: 200, duration: 300 }}>
 	<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
 		<Telescope class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
 	</div>
@@ -98,14 +99,19 @@
 	</div>
 </div>
 
-<Timeline />
+<div in:blur={{ delay: 200, duration: 400 }}>
+	<Timeline />
+</div>
 
-<div class="mx-auto mt-48 flex max-w-6xl flex-col px-3 sm:px-6">
+<div
+	class="mx-auto mt-48 flex max-w-6xl flex-col px-3 sm:px-6"
+	in:blur={{ delay: 200, duration: 500 }}
+>
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">
 		Meet the BlockSprint Team
 	</h2>
 	<p
-		class="mx-auto mb-10 max-w-3xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
+		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
 	>
 		Passionate members of the TUM Blockchain Club, dedicated to bridging the gap between students
 		and groundbreaking companies, driving innovation for the future of the industry.
