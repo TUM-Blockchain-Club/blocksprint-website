@@ -4,11 +4,23 @@
 	import tbc from '$lib/img/tbc.svg';
 	import { Menu, X } from 'lucide-svelte';
 	import { goto } from '$app/navigation';
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import { text } from '@sveltejs/kit';
 
 	let menuOpen = $state(false);
+	let currentPage = $state('');
 
 	$effect(() => {
 		document.body.style.overflow = menuOpen ? 'hidden' : '';
+	});
+
+	$effect(() => {
+		currentPage = $page.url.pathname;
+	});
+
+	onMount(() => {
+		currentPage = $page.url.pathname;
 	});
 </script>
 
@@ -31,7 +43,9 @@
 				<div class="hidden items-center gap-4 text-sm md:flex lg:gap-8">
 					<a
 						href="/projects"
-						class="w-[53px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						class:text-foreground={currentPage.endsWith('/projects')}
+						class:text-muted-foreground={!currentPage.endsWith('/projects')}
+						class="w-[53px] overflow-hidden whitespace-nowrap hover:text-foreground"
 						id="Projects"
 						onmouseenter={() => {
 							scramble('Projects', 'Projects');
@@ -42,7 +56,9 @@
 					</a>
 					<a
 						href="/applicants"
-						class="w-[68px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						class:text-foreground={currentPage.endsWith('/applicants')}
+						class:text-muted-foreground={!currentPage.endsWith('/applicants')}
+						class="w-[68px] overflow-hidden whitespace-nowrap hover:text-foreground"
 						id="Applicants"
 						onmouseenter={() => {
 							scramble('Applicants', 'Applicants');
@@ -53,7 +69,9 @@
 					</a>
 					<a
 						href="/partners"
-						class="w-[55px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						class:text-foreground={currentPage.endsWith('/partners')}
+						class:text-muted-foreground={!currentPage.endsWith('/partners')}
+						class="w-[55px] overflow-hidden whitespace-nowrap hover:text-foreground"
 						id="Partners"
 						onmouseenter={() => {
 							scramble('Partners', 'Partners');
@@ -64,7 +82,9 @@
 					</a>
 					<a
 						href="/about"
-						class="w-[39px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						class:text-foreground={currentPage.endsWith('/about')}
+						class:text-muted-foreground={!currentPage.endsWith('/about')}
+						class="w-[39px] overflow-hidden whitespace-nowrap hover:text-foreground"
 						id="About"
 						onmouseenter={() => {
 							scramble('About', 'About');
