@@ -7,12 +7,16 @@
 	import Marquee from 'svelte-fast-marquee';
 </script>
 
-<div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6" in:blur={{ delay: 200, duration: 450 }}>
-	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
-		Former Project Partners <br /><span class="text-muted-foreground">
-			From Startup to Enterprise - we got you.
-		</span>
+<div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6">
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">
+		Former Project Partners
 	</h2>
+	<p
+		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
+	>
+		BlockSprint has partnered with leading companies whose contributions have helped shape the
+		future of blockchain across industries.
+	</p>
 </div>
 <div in:blur={{ delay: 200, duration: 500 }}>
 	<Marquee gap="70px" speed={30}>
