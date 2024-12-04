@@ -17,6 +17,29 @@
 	import felix from '$lib/img/felix.png';
 	import thomas from '$lib/img/thomas.png';
 
+	let milestones = [
+		{
+			date: '11/2023',
+			title: 'Formation of the Industry Team'
+		},
+		{
+			date: '04/2024',
+			title: 'Kick-off Event for the first Iteration'
+		},
+		{
+			date: '05/2024',
+			title: 'Midterm Checkpoint for the first Iteration'
+		},
+		{
+			date: '07/2024',
+			title: 'Final Event of the first Iteration'
+		},
+		{
+			date: '10/2024',
+			title: 'Kick-off Event for the second Iteration'
+		}
+	];
+
 	let members = [
 		{
 			image: giga,
@@ -81,11 +104,17 @@
 	];
 </script>
 
-<div class="grid pb-32 sm:grid-cols-2" in:blur={{ delay: 50, duration: 300 }}>
-	<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
-		<Telescope class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
+<div
+	class="mx-auto grid max-w-6xl gap-10 px-3 pb-32 sm:grid-cols-2 sm:px-6 sm:pt-10"
+	in:blur={{ delay: 50, duration: 300 }}
+>
+	<div class="order-2 flex items-center justify-center sm:order-1">
+		<Telescope
+			class="mx-auto h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72"
+			strokeWidth=".25"
+		/>
 	</div>
-	<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
+	<div class="order-1 flex flex-col gap-5 sm:order-2">
 		<h2 class="text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">Our Vision</h2>
 		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 			Through BlockSprint projects, we bridge the gap between theoretical education and the
@@ -100,7 +129,7 @@
 </div>
 
 <div in:blur={{ delay: 50, duration: 400 }}>
-	<Timeline />
+	<Timeline {milestones} tag="History" title="BlockSprint" subtitle="Key Milestones & Timeline" />
 </div>
 
 <div
