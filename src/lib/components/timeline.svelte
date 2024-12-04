@@ -1,77 +1,47 @@
 <script>
-	const milestones = [
-		{
-			date: '11/2023',
-			title: 'Formation of the Industry Team'
-		},
-		{
-			date: '04/2024',
-			title: 'Kick-off Event for the first Iteration'
-		},
-		{
-			date: '05/2024',
-			title: 'Midterm Checkpoint for the first Iteration'
-		},
-		{
-			date: '07/2024',
-			title: 'Final Event of the first Iteration'
-		},
-		{
-			date: '10/2024',
-			title: 'Kick-off Event for the second Iteration'
-		}
-	];
+	import { Calendar, Rocket } from 'lucide-svelte';
+
+	let { tag, title, subtitle, milestones = [] } = $props();
 </script>
 
-<section class="w-full px-4 md:px-6 lg:px-8">
-	<div class="mx-auto max-w-6xl">
-		<h2 class="mb-10 text-center text-lg font-medium sm:text-xl md:text-2xl">
-			BlockSprint <br /><span class="text-muted-foreground">Key Milestones & Timeline</span>
-		</h2>
-
-		<!-- Desktop Timeline -->
-		<div class="relative hidden items-center justify-between md:flex">
-			<!-- Connecting Line -->
-			<div class="absolute left-0 right-0 top-4 h-[2px] rounded-full bg-zinc-50"></div>
-
-			<!-- Milestones -->
-			{#each milestones as milestone, index}
-				<div class="relative flex w-48 flex-col items-center">
-					<!-- Circle -->
-					<div class="relative z-10 h-8 w-8 rounded-full bg-zinc-50"></div>
-
-					<!-- Date -->
-					<div class="mt-6 text-lg font-medium">
-						{milestone.date}
-					</div>
-
-					<!-- Title -->
-					<div class="mt-2 text-center text-sm">
-						{milestone.title}
-					</div>
-				</div>
-			{/each}
+<section class="w-full">
+	<div class="mx-auto grid max-w-6xl grid-cols-1 gap-20 px-3 sm:px-6 md:grid-cols-2 md:gap-0">
+		<div class="mx-auto flex h-fit flex-col md:sticky md:top-32 md:mx-0">
+			<div class="mx-auto flex items-center gap-2.5 font-medium text-[#CD31FF] md:mx-0">
+				<Rocket class="h-4 w-4" />
+				<p>{tag}</p>
+			</div>
+			<h2 class="font-display mt-8 text-balance text-center text-3xl font-medium md:text-left">
+				{title}
+			</h2>
+			<p class="mt-3 max-w-md text-pretty text-center text-lg text-muted-foreground md:text-left">
+				{subtitle}
+			</p>
 		</div>
 
 		<!-- Mobile Timeline -->
-		<div class="mx-auto w-fit md:hidden">
+		<div class="mx-auto w-fit md:mx-0">
 			{#each milestones as milestone, index}
 				<div class="flex items-start space-x-4">
 					<!-- Circle and Vertical Line -->
 					<div class="flex flex-col items-center">
-						<div class="h-6 w-6 rounded-full bg-zinc-50"></div>
+						<div
+							class="flex h-12 w-12 items-center justify-center rounded-full border border-zinc-800 bg-zinc-950"
+						>
+							<Calendar class="h-5 w-5 text-foreground" />
+						</div>
 						{#if index !== milestones.length - 1}
-							<div class="h-24 w-[2px] rounded-full bg-zinc-50"></div>
+							<div class="h-24 w-[1px] rounded-full bg-zinc-800"></div>
 						{/if}
 					</div>
 
 					<!-- Content -->
-					<div class="pt-1">
-						<div class="font-medium">
-							{milestone.date}
-						</div>
-						<div class="mt-1 text-sm">
+					<div>
+						<div class="font-medium text-foreground">
 							{milestone.title}
+						</div>
+						<div class="mt-1 text-sm text-muted-foreground">
+							{milestone.date}
 						</div>
 					</div>
 				</div>
@@ -79,3 +49,29 @@
 		</div>
 	</div>
 </section>
+
+<!--
+		Desktop Timeline
+		<div class="relative hidden items-center justify-between md:flex">
+			Connecting Line
+			<div class="absolute left-0 right-0 top-6 h-[1px] rounded-full bg-zinc-800"></div>
+
+			Milestones
+			{#each milestones as milestone, index}
+				<div class="relative flex w-48 flex-col items-center">
+					Circle
+					<div class="relative z-10 h-12 w-12 rounded-full border border-zinc-800 bg-zinc-950">
+						<Calendar class="mx-auto mb-4 mt-3 h-5 w-5 text-foreground" />
+					</div>
+
+					<div class="mt-6 text-lg font-medium text-foreground">
+						{milestone.date}
+					</div>
+
+					<div class="mt-2 text-center text-sm text-muted-foreground">
+						{milestone.title}
+					</div>
+				</div>
+			{/each}
+		</div>
+-->
