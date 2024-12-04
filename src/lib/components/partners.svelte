@@ -14,8 +14,7 @@
 	<p
 		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
 	>
-		BlockSprint has partnered with leading companies whose contributions have helped shape the
-		future of blockchain across industries.
+		Blocksprint enables partners to attain high-quality solutions to their web3-related problems.
 	</p>
 </div>
 <div>
