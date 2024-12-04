@@ -16,6 +16,7 @@
 	} from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import tbc from '$lib/img/tbc.svg';
+	import Faq from '$lib/components/faq.svelte';
 
 	let benefits = [
 		{
@@ -27,7 +28,7 @@
 		{
 			title: 'Marketing and Employer Branding',
 			description:
-				'We attract the best talent through dedicated marketing and position your company as a leader in web3.',
+				'We attract the best talent through dedicated marketing and position your company as a leader in Web3.',
 			icon: Award
 		},
 		{
@@ -44,7 +45,7 @@
 		{
 			title: 'Networking Events',
 			description:
-				'We organize team building, kick-off, mid-term, and final pitch events and invite the Munich web3 community.',
+				'We organize team building, kick-off, mid-term, and final pitch events and invite the Munich Web3 community.',
 			icon: Handshake
 		},
 		{
@@ -56,17 +57,20 @@
 	];
 </script>
 
-<div class="grid- grid divide-zinc-800 sm:grid-cols-2" in:blur={{ delay: 50, duration: 300 }}>
-	<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
+<div
+	class="mx-auto grid max-w-6xl gap-10 divide-zinc-800 px-3 pt-10 sm:grid-cols-2 sm:px-6"
+	in:blur={{ delay: 50, duration: 300 }}
+>
+	<div class="order-1 flex flex-col gap-5 sm:order-2">
 		<h2 class="text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">BlockSprint</h2>
 		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 			Ambitious students work on a Web3-related problem provided by you, delivering high-quality,
 			innovative solutions. You just need to define the project idea, we handle participant
-			selection, team organization and management. Let’s create an impact together!
+			selection, team organization and management. Let's create an impact together!
 		</p>
 		<Button href="/projects" class="w-fit text-sm" variant="secondary">Become a Partner</Button>
 	</div>
-	<div class="order-2 flex items-center justify-center p-4 sm:order-1 sm:p-10">
+	<div class="order-2 mx-auto flex items-center justify-center sm:order-1">
 		<Blocks class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
 	</div>
 </div>
@@ -76,7 +80,7 @@
 </div>
 
 <div
-	class="mx-auto mt-48 flex max-w-6xl flex-col px-3 sm:px-6"
+	class="mx-auto my-48 flex max-w-6xl flex-col px-3 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
 	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
@@ -100,3 +104,5 @@
 		{/each}
 	</div>
 </div>
+
+<Faq category="partners" />
