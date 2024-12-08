@@ -93,11 +93,22 @@
 					>
 						About
 					</a>
+					<a
+						href="https://tum-blockchain.com"
+						class="w-[39px] overflow-hidden whitespace-nowrap text-muted-foreground hover:text-foreground"
+						id="Club"
+						onmouseenter={() => {
+							scramble('Club', 'Club');
+						}}
+						onmouseleave={() => (document.getElementById('Club').innerText = 'Club')}
+					>
+						Club
+					</a>
 				</div>
 
 				<div class="flex h-8 items-center md:gap-4">
-					<Button href="https://apply.tum-blockchain.com/industry-partner" class="flex h-8 text-sm"
-						>Partnership</Button
+					<Button href="mailto:industry@tum-blockchain.com" class="flex h-8 text-sm"
+						>Contact Us</Button
 					>
 					<Button
 						variant="invisible"
@@ -120,35 +131,38 @@
 			<div class="mt-10 flex w-full flex-col gap-4">
 				<Button
 					onclick={() => {
-						menuOpen = false;
 						goto('/projects');
+						menuOpen = false;
 					}}
 					class="w-fit text-base"
 					variant="link">PROJECTS</Button
 				>
 				<Button
 					onclick={() => {
-						menuOpen = false;
 						goto('/applicants');
+						menuOpen = false;
 					}}
 					class="w-fit text-base"
 					variant="link">APPLICANTS</Button
 				>
 				<Button
 					onclick={() => {
-						menuOpen = false;
 						goto('/partners');
+						menuOpen = false;
 					}}
 					class="w-fit text-base"
 					variant="link">PARTNERS</Button
 				>
 				<Button
 					onclick={() => {
-						menuOpen = false;
 						goto('/about');
+						menuOpen = false;
 					}}
 					class="w-fit text-base"
 					variant="link">ABOUT</Button
+				>
+				<Button href="https://tum-blockchain.com" class="w-fit text-base" variant="link"
+					>CLUB</Button
 				>
 			</div>
 		{/if}
