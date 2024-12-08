@@ -1,7 +1,7 @@
 <script>
 	import Footer from '$lib/components/footer.svelte';
 	import Timeline from '$lib/components/timeline.svelte';
-	import { ChevronRight, Key, Telescope } from 'lucide-svelte';
+	import { ChevronRight, Key, Telescope, Linkedin } from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { blur } from 'svelte/transition';
 	import giga from '$lib/img/gigachad.jpeg';
@@ -155,8 +155,10 @@
 						href={member.linkedin}
 						target="_blank"
 						rel="noopener"
-						class="text-sm text-muted-foreground hover:underline">LinkedIn</a
+						class="mt-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
 					>
+						<Linkedin class="h-5 w-5" />
+					</a>
 				</div>
 				<div></div>
 			</div>
