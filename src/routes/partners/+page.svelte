@@ -80,7 +80,7 @@
 </div>
 
 <div
-	class="mx-auto my-48 flex max-w-6xl flex-col px-3 sm:px-6"
+	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
 	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
