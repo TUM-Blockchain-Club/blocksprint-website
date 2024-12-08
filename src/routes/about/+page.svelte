@@ -16,6 +16,7 @@
 	import ji from '$lib/img/ji.jpeg';
 	import felix from '$lib/img/felix.png';
 	import thomas from '$lib/img/thomas.png';
+	import hofmann from '$lib/img/hofmann.jpg';
 
 	let milestones = [
 		{
@@ -42,9 +43,9 @@
 
 	let members = [
 		{
-			image: giga,
+			image: hofmann,
 			name: 'Jakob Hofmann',
-			linkedin: 'https://www.linkedin.com/in/jis3r/'
+			linkedin: 'https://www.linkedin.com/in/jakob-hofmann-b413aa240/'
 		},
 		{
 			image: iana,
