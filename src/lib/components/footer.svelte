@@ -26,13 +26,13 @@
 					<a
 						href="https://www.tum-blockchain.com/imprint"
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="mb-4 text-sm text-muted-foreground hover:underline">Imprint</a
 					>
 					<a
 						href="https://www.tum-blockchain.com/privacy-policy"
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="mb-4 text-sm text-muted-foreground hover:underline">Privacy</a
 					>
 					<a
@@ -45,25 +45,25 @@
 					<a
 						href="https://x.com/tbc_munich"
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="mb-4 text-sm text-muted-foreground hover:underline">Twitter</a
 					>
 					<a
 						href="https://www.linkedin.com/company/tum-blockchain-club/"
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="mb-4 text-sm text-muted-foreground hover:underline">LinkedIn</a
 					>
 					<a
 						href="https://www.instagram.com/tumblockchain/"
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="mb-4 text-sm text-muted-foreground hover:underline">Instagram</a
 					>
 					<a
 						href="https://discord.gg/kqwYF2cHb9"
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="mb-4 text-sm text-muted-foreground hover:underline">Discord</a
 					>
 				</div>

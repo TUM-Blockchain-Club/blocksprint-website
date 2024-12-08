@@ -154,7 +154,7 @@
 					<a
 						href={member.linkedin}
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="noopener"
 						class="text-sm text-muted-foreground hover:underline">LinkedIn</a
 					>
 				</div>
