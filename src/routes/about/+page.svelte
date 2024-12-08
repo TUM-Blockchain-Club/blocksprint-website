@@ -155,7 +155,7 @@
 						href={member.linkedin}
 						target="_blank"
 						rel="noopener"
-						class="mt-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+						class="mt-1 w-fit text-sm text-muted-foreground transition-colors hover:text-foreground"
 					>
 						<Linkedin class="h-5 w-5" />
 					</a>
