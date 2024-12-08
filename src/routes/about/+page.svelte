@@ -117,12 +117,11 @@
 	<div class="order-1 flex flex-col gap-5 sm:order-2">
 		<h2 class="text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">Our Vision</h2>
 		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-			Through BlockSprint projects, we bridge the gap between theoretical education and the
-			practical use of Web3 technologies. These projects empower students to tackle real-world
-			challenges presented by industry partners.
+			We bridge the gap between academia and the Industry by organizing Industry projects. Ambitious
+			students tackle Web3 challenges and create value for our Industry partners.
 			<br /><br />
 			By fostering collaboration between academia and industry, we drive innovation within the Web3 ecosystem:
-			companies unlock groundbreaking solutions, and students emerge as the next generation of Web3 leaders
+			companies unlock impactful solutions, and students emerge as the next generation of Web3 leaders
 			with hands-on experience and deep industry insights.
 		</p>
 	</div>

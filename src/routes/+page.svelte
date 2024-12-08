@@ -27,9 +27,8 @@
 			class="mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-left sm:text-lg md:text-xl"
 			in:blur={{ delay: 50, duration: 400 }}
 		>
-			Empowering ambitious students and industry leaders to build a thriving Web3 community of
-			builders. Through 3-month projects with innovative companies, students tackle exciting
-			challenges.
+			Empowering ambitious students and industry leaders to build impactful projects in Web3.
+			Through 3-month projects with innovative companies, students tackle exciting challenges.
 		</p>
 		<div
 			class="mx-auto mt-5 grid w-fit gap-4 sm:mx-0 sm:flex"
@@ -67,12 +66,11 @@
 			<div class="order-1 flex flex-col gap-5 p-4 sm:order-2 sm:p-10">
 				<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Our Vision</h2>
 				<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-					Through BlockSprint projects, we bridge the gap between theoretical education and the
-					practical use of Web3 technologies. These projects empower students to tackle real-world
-					challenges presented by industry partners.
+					We bridge the gap between academia and the Industry by organizing Industry projects.
+					Ambitious students tackle Web3 challenges and create value for our Industry partners.
 					<br /><br />
 					By fostering collaboration between academia and industry, we drive innovation within the Web3
-					ecosystem: companies unlock groundbreaking solutions, and students emerge as the next generation
+					ecosystem: companies unlock impactful solutions, and students emerge as the next generation
 					of Web3 leaders with hands-on experience and deep industry insights.
 				</p>
 				<Button href="/about" class="w-fit text-sm" variant="secondary">About Us</Button>
@@ -80,9 +78,9 @@
 		</div>
 		<div class="grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 			<div class="flex flex-col gap-5 p-4 sm:p-10">
-				<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Key Factors</h2>
+				<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Key Facts</h2>
 				<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-					Start Date: Beginning of each semester
+					Start Date: April or October
 					<br />
 					Project Duration: 3 months
 					<br />
