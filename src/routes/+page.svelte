@@ -12,9 +12,9 @@
 </script>
 
 {#if mounted}
-	<div class="mx-auto max-w-6xl px-3 sm:px-6">
+	<div class="mx-auto w-fit max-w-6xl px-3 sm:px-6">
 		<h1
-			class="text-center text-4xl font-semibold sm:text-left sm:text-5xl md:text-6xl"
+			class="text-center text-4xl font-semibold sm:text-5xl md:text-6xl"
 			in:blur={{ delay: 50, duration: 300 }}
 		>
 			The <span
@@ -24,16 +24,13 @@
 			creates <br /> real business value.
 		</h1>
 		<p
-			class="mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-left sm:text-lg md:text-xl"
+			class="mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-lg md:text-xl"
 			in:blur={{ delay: 50, duration: 400 }}
 		>
 			Empowering ambitious students and industry leaders to build impactful projects in Web3.
 			Through 3-month projects with innovative companies, students tackle exciting challenges.
 		</p>
-		<div
-			class="mx-auto mt-5 grid w-fit gap-4 sm:mx-0 sm:flex"
-			in:blur={{ delay: 50, duration: 500 }}
-		>
+		<div class="mx-auto mt-5 grid w-fit gap-4 sm:flex" in:blur={{ delay: 50, duration: 500 }}>
 			<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
 			<Button
 				href="https://apply.tum-blockchain.com/industry-student-waitlist"
