@@ -8,9 +8,7 @@
 </script>
 
 <div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6">
-	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">
-		Former Project Partners
-	</h2>
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Project Partners</h2>
 	<p
 		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
 	>
