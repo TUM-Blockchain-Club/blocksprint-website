@@ -87,9 +87,12 @@
 	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
-	<h2 class="mb-10 text-center text-base font-medium sm:text-lg md:text-xl">
-		Partner Benefits <br /><span class="text-muted-foreground">Lorem Ipsum</span>
-	</h2>
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Partner Benefits</h2>
+	<p
+		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
+	>
+		Blocksprint enables partners to attain high-quality solutions to their web3-related problems.
+	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2 lg:grid-cols-3">
 		{#each benefits as benefit}
 			<div class="items-left flex h-48 flex-col justify-between bg-zinc-950 p-9">
