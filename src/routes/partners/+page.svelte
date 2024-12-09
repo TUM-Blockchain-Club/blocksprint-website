@@ -68,7 +68,11 @@
 			innovative solutions. You just need to define the project idea, we handle participant
 			selection, team organization and management. Let's create an impact together!
 		</p>
-		<Button href="/projects" class="w-fit text-sm" variant="secondary">Become a Partner</Button>
+		<Button
+			href="https://apply.tum-blockchain.com/industry-partner"
+			class="w-fit text-sm"
+			variant="secondary">Become a Partner</Button
+		>
 	</div>
 	<div class="order-2 mx-auto flex items-center justify-center sm:order-1">
 		<Blocks class="h-56 w-56 text-zinc-800 sm:h-64 sm:w-64 md:h-72 md:w-72" strokeWidth=".25" />
