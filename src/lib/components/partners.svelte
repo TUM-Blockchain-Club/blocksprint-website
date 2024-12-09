@@ -12,7 +12,8 @@
 	<p
 		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
 	>
-		Blocksprint enables partners to attain high-quality solutions to their Web3-related problems.
+		The Industry Projects connect partners with the best student talent for their Web3-related
+		projects.
 	</p>
 </div>
 <div>

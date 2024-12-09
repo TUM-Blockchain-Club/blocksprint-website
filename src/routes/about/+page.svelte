@@ -121,9 +121,8 @@
 			We bridge the gap between academia and the Industry by organizing Industry projects. Ambitious
 			students tackle Web3 challenges and create value for our Industry partners.
 			<br /><br />
-			By fostering collaboration between academia and industry, we drive innovation within the Web3 ecosystem:
-			companies unlock impactful solutions, and students emerge as the next generation of Web3 leaders
-			with hands-on experience and deep industry insights.
+			By fostering collaboration between academia and industry, we are accelerating Web3 innovation and
+			empowering a new generation of builders.
 		</p>
 	</div>
 </div>

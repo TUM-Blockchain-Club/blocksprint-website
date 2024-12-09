@@ -66,9 +66,8 @@
 					We bridge the gap between academia and the Industry by organizing Industry projects.
 					Ambitious students tackle Web3 challenges and create value for our Industry partners.
 					<br /><br />
-					By fostering collaboration between academia and industry, we drive innovation within the Web3
-					ecosystem: companies unlock impactful solutions, and students emerge as the next generation
-					of Web3 leaders with hands-on experience and deep industry insights.
+					By fostering collaboration between academia and industry, we are accelerating Web3 innovation
+					and empowering a new generation of builders.
 				</p>
 				<Button href="/about" class="w-fit text-sm" variant="secondary">About Us</Button>
 			</div>
@@ -76,16 +75,23 @@
 		<div class="grid divide-zinc-800 sm:grid-cols-2 sm:divide-x">
 			<div class="flex flex-col gap-5 p-4 sm:p-10">
 				<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">Key Facts</h2>
-				<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-					Start Date: April or October
-					<br />
-					Project Duration: 3 months
-					<br />
-					Time Commitment: 15–20 hours per week
-					<br />
-					Team Structure: 2–4 students per project
-					<br />
-					Compensation: Up to €25 per hour
+				<p
+					class="text grid max-w-md grid-cols-2 text-sm text-muted-foreground sm:text-base md:text-lg"
+				>
+					<span class="font-semibold">Start Date:</span>
+					<span>April or October</span>
+
+					<span class="font-semibold">Project Duration:</span>
+					<span>3 months</span>
+
+					<span class="font-semibold">Time Commitment:</span>
+					<span>15–20 hours per week</span>
+
+					<span class="font-semibold">Team Structure:</span>
+					<span>2–4 students per project</span>
+
+					<span class="font-semibold">Compensation:</span>
+					<span>Up to €25 per hour</span>
 				</p>
 				<Button href="/projects" class="w-fit text-sm" variant="secondary">Projects</Button>
 			</div>
