@@ -27,8 +27,8 @@
 			class="mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-lg md:text-xl"
 			in:blur={{ delay: 50, duration: 400 }}
 		>
-			Empowering ambitious students and industry leaders to build impactful projects in Web3.
-			Through 3-month projects with innovative companies, students tackle exciting challenges.
+			Empowering ambitious students and industry leaders to create impactful Web3 solutions. In
+			3-month projects with innovative companies, students tackle exciting, real-world challenges.
 		</p>
 		<div class="mx-auto mt-5 grid w-fit gap-4 sm:flex" in:blur={{ delay: 50, duration: 500 }}>
 			<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
