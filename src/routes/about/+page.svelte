@@ -48,44 +48,9 @@
 			linkedin: 'https://www.linkedin.com/in/jakob-hofmann-b413aa240/'
 		},
 		{
-			image: iana,
-			name: 'Iana Makhonina',
-			linkedin: 'https://www.linkedin.com/in/iana-makhonina-110748200'
-		},
-		{
-			image: daniel,
-			name: 'Daniel Wiedenmann',
-			linkedin: 'https://www.linkedin.com/in/daniel-wiedenmann/'
-		},
-		{
-			image: aysenur,
-			name: 'Ayşenur Özbek',
-			linkedin: 'https://www.linkedin.com/in/ayşenur-özbek-29b801109'
-		},
-		{
-			image: ekaterina,
-			name: 'Ekaterini Laro',
-			linkedin: 'https://www.linkedin.com/in/katerina-laro-992335198/'
-		},
-		{
 			image: salan,
 			name: 'Salan Isaqzoi',
 			linkedin: 'https://www.linkedin.com/in/salan-isa/'
-		},
-		{
-			image: daniil,
-			name: 'Daniil Korenkov',
-			linkedin: 'https://www.linkedin.com/in/daniil-korenkov-937523252'
-		},
-		{
-			image: tian,
-			name: 'Tian Tang',
-			linkedin: 'https://www.linkedin.com/in/tian-tang-0384aa2a8/'
-		},
-		{
-			image: yunan,
-			name: 'Yunan Li',
-			linkedin: 'https://www.linkedin.com/in/phillip-l-b55423308/'
 		},
 		{
 			image: ji,
@@ -93,14 +58,49 @@
 			linkedin: 'https://www.linkedin.com/in/jis3r/'
 		},
 		{
+			image: daniil,
+			name: 'Daniil Korenkov',
+			linkedin: 'https://www.linkedin.com/in/daniil-korenkov-937523252'
+		},
+		{
+			image: ekaterina,
+			name: 'Ekaterini Laro',
+			linkedin: 'https://www.linkedin.com/in/katerina-laro-992335198/'
+		},
+		{
+			image: yunan,
+			name: 'Yunan Li',
+			linkedin: 'https://www.linkedin.com/in/phillip-l-b55423308/'
+		},
+		{
+			image: iana,
+			name: 'Iana Makhonina',
+			linkedin: 'https://www.linkedin.com/in/iana-makhonina-110748200'
+		},
+		{
+			image: aysenur,
+			name: 'Ayşenur Özbek',
+			linkedin: 'https://www.linkedin.com/in/ayşenur-özbek-29b801109'
+		},
+		{
 			image: felix,
 			name: 'Felix Rihacek',
 			linkedin: 'https://www.linkedin.com/in/felix-rihacek/'
 		},
 		{
+			image: tian,
+			name: 'Tian Tang',
+			linkedin: 'https://www.linkedin.com/in/tian-tang-0384aa2a8/'
+		},
+		{
 			image: thomas,
 			name: 'Thomas Wagner',
 			linkedin: 'https://www.linkedin.com/in/thomas-wagner97/'
+		},
+		{
+			image: daniel,
+			name: 'Daniel Wiedenmann',
+			linkedin: 'https://www.linkedin.com/in/daniel-wiedenmann/'
 		}
 	];
 </script>
