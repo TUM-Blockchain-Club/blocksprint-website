@@ -4,6 +4,7 @@
 	import { onMount } from 'svelte';
 	import { ChevronRight, Key, Telescope } from 'lucide-svelte';
 	import Partners from '$lib/components/partners.svelte';
+	import Testimonials from '$lib/components/testimonials.svelte';
 
 	let mounted = false;
 	onMount(() => {
@@ -101,9 +102,9 @@
 		</div>
 	</div>
 
-	<div
-		class="mt-16 flex w-full items-center bg-gradient-to-b from-zinc-950 to-zinc-900 sm:mt-20 md:mt-24"
-	>
+	<Testimonials />
+
+	<div class="flex w-full items-center bg-gradient-to-b from-zinc-950 to-zinc-900">
 		<div
 			class="mx-auto my-auto flex w-full max-w-6xl flex-col justify-between gap-8 px-3 py-16 sm:px-6 sm:py-20 md:flex-row md:py-24"
 		>

@@ -17,6 +17,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import tbc from '$lib/img/tbc.svg';
 	import Faq from '$lib/components/faq.svelte';
+	import Testimonials from '$lib/components/testimonials.svelte';
 
 	let benefits = [
 		{
@@ -83,9 +84,13 @@
 	<Partners />
 </div>
 
+<div in:blur={{ delay: 50, duration: 500 }}>
+	<Testimonials />
+</div>
+
 <div
 	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
-	in:blur={{ delay: 50, duration: 500 }}
+	in:blur={{ delay: 50, duration: 600 }}
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Partner Benefits</h2>
 	<p
