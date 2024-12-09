@@ -69,7 +69,7 @@
 				target="_blank"
 				rel="noopener"
 				class="w-fit text-sm"
-				variant="secondary">Read Story</Button
+				variant="secondary">Learn More</Button
 			>
 		</div>
 		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
@@ -89,7 +89,7 @@
 				target="_blank"
 				rel="noopener"
 				class="w-fit text-sm"
-				variant="secondary">Read Story</Button
+				variant="secondary">Learn More</Button
 			>
 		</div>
 		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
@@ -109,7 +109,7 @@
 				target="_blank"
 				rel="noopener"
 				class="w-fit text-sm"
-				variant="secondary">Read Story</Button
+				variant="secondary">Learn More</Button
 			>
 		</div>
 		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
@@ -128,7 +128,7 @@
 				target="_blank"
 				rel="noopener"
 				class="w-fit text-sm"
-				variant="secondary">Read Story</Button
+				variant="secondary">Learn More</Button
 			>
 		</div>
 	</div>
@@ -162,7 +162,7 @@
 				target="_blank"
 				rel="noopener"
 				class="w-fit text-sm"
-				variant="secondary">Read Story</Button
+				variant="secondary">Learn More</Button
 			>
 		</div>
 
@@ -183,7 +183,7 @@
 				target="_blank"
 				rel="noopener"
 				class="w-fit text-sm"
-				variant="secondary">Read Story</Button
+				variant="secondary">Learn More</Button
 			>
 		</div>
 	</div>
