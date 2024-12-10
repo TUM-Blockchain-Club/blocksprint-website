@@ -14,7 +14,14 @@
 		projects.
 	</p>
 </div>
-<div>
+<div class="relative mx-auto max-w-6xl">
+	<div
+		class="pointer-events-none absolute left-0 z-10 h-full w-16 bg-gradient-to-r from-background to-transparent sm:w-32 md:w-64"
+	></div>
+	<div
+		class="pointer-events-none absolute right-0 z-10 h-full w-16 bg-gradient-to-l from-background to-transparent sm:w-32 md:w-64"
+	></div>
+
 	<Marquee gap="70px" speed={30}>
 		<img src={bosch} alt="Bosch" class="mx-auto h-8" />
 		<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
