@@ -17,7 +17,7 @@
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
 		<div class="items-left flex flex-col gap-10 bg-zinc-950 px-3 py-10 sm:p-10">
-			<img src={deloitte} alt="Deloitte" class="h-6 w-fit" />
+			<img src={deloitte} alt="Deloitte" class="flex h-6 w-fit" />
 			<p class="text max-w-md text-[15px] italic text-muted-foreground">
 				"Working with this team was a pleasure! They were motivated and organized. The project ran
 				smoothly, and their dedication really showed. Highly recommend!"
@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="items-left flex flex-col gap-10 bg-zinc-950 px-3 py-10 sm:p-10">
-			<img src={solanabeach} alt="Solana Beach" class="h-6 w-fit" />
+			<img src={solanabeach} alt="Solana Beach" class="flex h-6 w-fit" />
 			<p class="text max-w-md text-[15px] italic text-muted-foreground">
 				"The industry initiative is a great way to kickoff a new project idea or build a prototype
 				together with students. We enjoyed the simple process and easy communication."
