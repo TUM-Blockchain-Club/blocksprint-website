@@ -27,9 +27,7 @@
 			<div class="mt-auto flex items-center justify-between gap-4">
 				<div class="flex flex-col space-y-0.5">
 					<p class="font-medium">Patrick Sührer</p>
-					<p class="text-sm text-muted-foreground">
-						Senior Consultant @ Deloitte Blockchain Institute
-					</p>
+					<p class="text-sm text-muted-foreground">Senior Consultant @ Deloitte</p>
 				</div>
 				<img src={sührer} alt="Sührer" class="h-12 w-12 rounded-full object-cover" />
 			</div>
