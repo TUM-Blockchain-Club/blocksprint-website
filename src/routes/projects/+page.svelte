@@ -51,7 +51,7 @@
 		Ongoing
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
-		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<img src={bosch} alt="Bosch" class="h-6 w-fit" />
 			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Decentralized Marketplace
@@ -70,7 +70,7 @@
 				variant="secondary">Learn More</Button
 			>
 		</div>
-		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<img src={wmdatenservice} alt="WM Datenservice" class="h-6 w-fit" />
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				DeFi Market Research
@@ -90,7 +90,7 @@
 				variant="secondary">Learn More</Button
 			>
 		</div>
-		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<img src={superteamgermany} alt="Superteam Germany" class="h-6 w-fit" />
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Web3 Community Building
@@ -110,7 +110,7 @@
 				variant="secondary">Learn More</Button
 			>
 		</div>
-		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<img src={solanabeach} alt="Solana Beach" class="h-6 w-fit" />
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Fast Stake Shift
@@ -141,7 +141,7 @@
 		Completed
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
-		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<img src={deloitte} alt="Deloitte" class="h-6 w-fit" />
 			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Digital Product Passport
@@ -162,7 +162,7 @@
 			>
 		</div>
 
-		<div class="flex flex-col gap-5 bg-zinc-950 p-4 sm:p-10">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<img src={solanabeach} alt="Solana Beach" class="h-6 w-fit" />
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Client Research
