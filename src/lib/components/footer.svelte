@@ -16,7 +16,7 @@
 		<div class="flex flex-col justify-between sm:flex-row md:pr-12">
 			<div class="order-2 flex flex-col justify-between sm:order-1">
 				<div></div>
-				<p class="mx-auto mt-4 text-xs text-muted-foreground sm:mx-0 sm:mt-0 sm:text-sm">
+				<p class="mx-auto mt-4 text-sm text-muted-foreground sm:mx-0 sm:mt-0">
 					Copyright © TUM Blockchain Club
 				</p>
 			</div>

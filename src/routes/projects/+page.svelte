@@ -47,9 +47,7 @@
 	in:blur={{ delay: 50, duration: 500 }}
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Fall 2024</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		Ongoing
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
@@ -139,9 +137,7 @@
 	in:blur={{ delay: 50, duration: 500 }}
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Spring 2024</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		Completed
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">

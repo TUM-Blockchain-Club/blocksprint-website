@@ -9,9 +9,7 @@
 
 <div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6">
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Project Partners</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		The Industry Projects connect partners with the best student talent for their Web3-related
 		projects.
 	</p>

@@ -138,9 +138,7 @@
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">
 		Meet the BlockSprint Team
 	</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		Passionate members of the TUM Blockchain Club, dedicated to bridging the gap between students
 		and groundbreaking companies, driving innovation for the future of the industry.
 	</p>

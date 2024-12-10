@@ -12,9 +12,7 @@
 	in:blur={{ delay: 50, duration: 500 }}
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Testimonials</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		What our partners say about us
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
@@ -24,7 +22,7 @@
 				"Working with this team was a pleasure! They were motivated and organized. The project ran
 				smoothly, and their dedication really showed. Highly recommend!"
 			</p>
-			<div class="flex items-center justify-between gap-4">
+			<div class="mt-auto flex items-center justify-between gap-4">
 				<div class="flex flex-col space-y-0.5">
 					<p class="font-medium">Patrick Sührer</p>
 					<p class="text-sm text-muted-foreground">
@@ -41,7 +39,7 @@
 				"The industry initiative is a great way to kickoff a new project idea or build a prototype
 				together with students. We enjoyed the simple process and easy communication."
 			</p>
-			<div class="flex items-center justify-between gap-4">
+			<div class="mt-auto flex items-center justify-between gap-4">
 				<div class="flex flex-col space-y-0.5">
 					<p class="font-medium">Gustav Albrecht</p>
 					<p class="text-sm text-muted-foreground">CEO @ Solana Beach</p>
