@@ -93,10 +93,8 @@
 	in:blur={{ delay: 50, duration: 600 }}
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Partner Benefits</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
-		Blocksprint enables partners to attain high-quality solutions to their web3-related problems.
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
+		Blocksprint enables partners to attain high-quality solutions to their Web3-related problems.
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2 lg:grid-cols-3">
 		{#each benefits as benefit}
@@ -109,11 +107,49 @@
 						<benefit.icon class="mx-auto h-6 w-6 text-zinc-50" />
 					</div>
 				</div>
-				<p class="text-xs text-muted-foreground sm:text-sm">
+				<p class="text-sm text-muted-foreground">
 					{benefit.description}
 				</p>
 			</div>
 		{/each}
+	</div>
+</div>
+
+<div
+	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
+	in:blur={{ delay: 50, duration: 500 }}
+>
+	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
+		<div class="flex flex-col gap-5 bg-zinc-950 p-5 sm:p-10">
+			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Problem Statement
+			</h2>
+			<div class="flex flex-col gap-2 text-sm sm:text-base">
+				<p class="text-muted-foreground">Any Web3-related problem/project from your company:</p>
+				<ul class="list-disc pl-4 text-muted-foreground">
+					<li>Conducting research</li>
+					<li>Developing a prototype</li>
+					<li>Improving existing product and processes</li>
+				</ul>
+				<p class="text-muted-foreground">We will help you define a well-structured project!</p>
+			</div>
+		</div>
+
+		<div class="flex flex-col gap-5 bg-zinc-950 p-5 sm:p-10">
+			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				What we deliver
+			</h2>
+			<div class="flex flex-col gap-2 text-sm sm:text-base">
+				<ul class="list-disc pl-4 text-muted-foreground">
+					<li>Transform your problem statement into a well-structured project</li>
+					<li>Find the best participants from our large student network</li>
+					<li>Organize kick-off, team-building, midterm and project delivery events</li>
+					<li>
+						Provide each team with a mentor to empower them to deliver the best possible results
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </div>
 

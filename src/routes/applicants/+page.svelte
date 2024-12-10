@@ -123,10 +123,65 @@
 	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
+	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
+		<div class="flex flex-col gap-5 bg-zinc-950 p-5 sm:p-10">
+			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				General Information
+			</h2>
+			<div class="flex flex-col gap-2">
+				<ul class="list-disc pl-4 text-sm text-muted-foreground sm:text-base">
+					<li>Start: Beginning of each semester (October - April)</li>
+					<li>Duration: 3 months</li>
+					<li>Commitment: 15-20h per week</li>
+					<li>Teams: 2-4 students per project</li>
+					<li>Compensation: highly competitive</li>
+					<li>Application: starting 3rd March 2025</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="flex flex-col gap-5 bg-zinc-950 p-5 sm:p-10">
+			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				General Requirements
+			</h2>
+			<div class="flex flex-col gap-2">
+				<ul class="list-disc pl-4 text-sm text-muted-foreground md:text-base">
+					<li>You are a student enrolled at a university</li>
+					<li>You have general knowledge and interest in blockchain technology</li>
+					<li>You are a team player</li>
+					<li>
+						You have followed TUM Blockchain Club's <a
+							href="https://www.instagram.com/tumblockchain/"
+							target="_blank"
+							rel="noopener"
+							class="text-muted-foreground hover:underline">Instagram</a
+						>,
+						<a
+							href="https://www.linkedin.com/company/tum-blockchain-club/"
+							target="_blank"
+							rel="noopener"
+							class="text-muted-foreground hover:underline">LinkedIn</a
+						>
+						and
+						<a
+							href="https://x.com/tbc_munich"
+							target="_blank"
+							rel="noopener"
+							class="text-muted-foreground hover:underline">X</a
+						> 😉
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div
+	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
+	in:blur={{ delay: 50, duration: 600 }}
+>
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Opportunities</h2>
-	<p
-		class="mx-auto mb-10 max-w-2xl text-center text-xs text-muted-foreground sm:text-sm md:text-base"
-	>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		With Industry Projects you can dive deep into the Web3 ecosystem and get to know the latest
 		blockchain technologies first-hand. You will be able to experience how Web3 companies function
 		from the inside and work on cutting-edge problems.
@@ -142,7 +197,7 @@
 						<benefit.icon class="mx-auto h-6 w-6 text-zinc-50" />
 					</div>
 				</div>
-				<p class="text-xs text-muted-foreground sm:text-sm">
+				<p class="text-sm text-muted-foreground">
 					{benefit.description}
 				</p>
 			</div>
