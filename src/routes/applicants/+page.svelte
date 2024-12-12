@@ -53,7 +53,7 @@
 			icon: Rocket
 		},
 		{
-			title: 'Web3 Industry insights',
+			title: 'Web3 Industry Insights',
 			description:
 				'Work with leading Web3 companies and get first-hand insights into the groundbreaking blockchain industry.',
 			icon: Telescope

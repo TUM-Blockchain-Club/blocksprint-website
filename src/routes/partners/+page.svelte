@@ -137,7 +137,7 @@
 
 		<div class="flex flex-col gap-5 bg-zinc-950 p-5 sm:p-10">
 			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
-				What we deliver
+				What We Deliver
 			</h2>
 			<div class="flex flex-col gap-2 text-sm sm:text-base">
 				<ul class="list-disc pl-4 text-muted-foreground">

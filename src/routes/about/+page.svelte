@@ -118,8 +118,8 @@
 	<div class="order-1 flex flex-col gap-5 sm:order-2">
 		<h2 class="text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">Our Vision</h2>
 		<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-			We bridge the gap between academia and the Industry by organizing Industry projects. Ambitious
-			students tackle Web3 challenges and create value for our Industry partners.
+			We bridge the gap between academia and the industry by organizing Industry Projects. Ambitious
+			students tackle Web3 challenges and create value for our industry partners.
 			<br /><br />
 			By fostering collaboration between academia and industry, we are accelerating Web3 innovation and
 			empowering a new generation of builders.
