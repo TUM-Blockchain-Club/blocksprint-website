@@ -15,7 +15,7 @@
 {#if mounted}
 	<div class="mx-auto w-fit max-w-6xl px-3 sm:px-6">
 		<h1
-			class="text-center text-4xl font-semibold sm:text-5xl md:text-6xl"
+			class="max-w-5xl text-center text-4xl font-semibold sm:text-5xl md:text-6xl"
 			in:blur={{ delay: 50, duration: 300 }}
 		>
 			The <span
