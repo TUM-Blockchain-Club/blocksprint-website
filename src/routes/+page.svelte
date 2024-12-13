@@ -22,10 +22,10 @@
 				class="bg-gradient-to-br from-[#CD31FF] to-fuchsia-700 bg-clip-text text-transparent"
 				>BlockSprint</span
 			>
-			creates <br /> real business value.
+			connects top talent to the Industry.
 		</h1>
 		<p
-			class="mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-lg md:text-xl"
+			class="mx-auto mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-lg md:text-xl"
 			in:blur={{ delay: 50, duration: 400 }}
 		>
 			Empowering ambitious students and industry leaders to create impactful Web3 solutions. In
