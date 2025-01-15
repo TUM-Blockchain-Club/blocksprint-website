@@ -18,11 +18,10 @@
 			class="max-w-5xl text-center text-4xl font-semibold sm:text-5xl md:text-6xl"
 			in:blur={{ delay: 50, duration: 300 }}
 		>
-			The <span
-				class="bg-gradient-to-br from-[#CD31FF] to-fuchsia-700 bg-clip-text text-transparent"
-				>BlockSprint</span
-			>
-			connects top talent to the Industry.
+			We connect <span
+				class="text-nowrap bg-gradient-to-br from-[#CD31FF] to-fuchsia-700 bg-clip-text text-transparent"
+				>top talent</span
+			> <br /> to the Industry.
 		</h1>
 		<p
 			class="mx-auto mt-5 max-w-2xl text-center text-base text-muted-foreground sm:text-lg md:text-xl"
