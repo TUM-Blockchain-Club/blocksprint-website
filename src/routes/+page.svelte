@@ -33,12 +33,12 @@
 		<div class="mx-auto mt-5 grid w-fit gap-4 sm:flex" in:blur={{ delay: 50, duration: 500 }}>
 			<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
 			<Button
-				href="https://apply.tum-blockchain.com/industry-student-waitlist"
+				href="https://apply.tum-blockchain.com/talent-pool"
 				variant="ghost"
 				class="flex gap-1"
 			>
 				<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-					Join the Waitlist
+					Join the Talentpool
 				</p>
 				<ChevronRight class="h-5 w-5" />
 			</Button>
