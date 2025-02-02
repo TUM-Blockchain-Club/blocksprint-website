@@ -85,10 +85,10 @@
 					<span>3 months</span>
 
 					<span class="font-semibold">Time Commitment:</span>
-					<span>15–20 hours per week</span>
+					<span>15-20 hours per week</span>
 
 					<span class="font-semibold">Team Structure:</span>
-					<span>2–4 students per project</span>
+					<span>2-4 students per project</span>
 
 					<span class="font-semibold">Compensation:</span>
 					<span>Up to €25 per hour</span>
@@ -119,12 +119,12 @@
 				>
 					<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
 					<Button
-						href="https://apply.tum-blockchain.com/industry-student-waitlist"
+						href="https://apply.tum-blockchain.com/talent-pool"
 						variant="ghost"
 						class="flex gap-1"
 					>
 						<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-							Join the Waitlist
+							Join the Talentpool
 						</p>
 						<ChevronRight class="h-5 w-5" />
 					</Button>
