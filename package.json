@@ -36,6 +36,7 @@
 		"svelte-fast-marquee": "^0.8.0"
 	},
 	"overrides": {
-		"cookie": "^0.7.0"
+		"cookie": "^0.7.0",
+		"esbuild": "^0.25.0"
 	}
 }
