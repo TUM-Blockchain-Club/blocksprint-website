@@ -4,6 +4,10 @@
 	import solanabeach from '$lib/img/solanabeach.svg';
 	import superteamgermany from '$lib/img/superteamgermany.svg';
 	import wmdatenservice from '$lib/img/wmdatenservice.svg';
+	import stablelab from '$lib/img/stablelab.svg';
+	import munichre from '$lib/img/munichre.svg';
+	import boersestuttgart from '$lib/img/boersestuttgart.svg';
+	import stakingfacilities from '$lib/img/stakingfacilities.svg';
 	import Marquee from 'svelte-fast-marquee';
 </script>
 
@@ -27,5 +31,9 @@
 		<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
 		<img src={solanabeach} alt="Solanabeach" class="mx-auto h-8" />
 		<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
+		<img src={stablelab} alt="StableLab" class="mx-auto my-auto h-6" />
+		<!-- <img src={munichre} alt="Munich Re" class="mx-auto h-8" /> -->
+		<img src={boersestuttgart} alt="Boers Stuttgart" class="mx-auto h-8" />
+		<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-8" />
 	</Marquee>
 </div>
