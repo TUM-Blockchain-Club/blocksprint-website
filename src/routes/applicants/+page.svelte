@@ -22,26 +22,26 @@
 	import tbc from '$lib/img/tbc.svg';
 	import Faq from '$lib/components/faq.svelte';
 	import Timeline from '$lib/components/timeline.svelte';
-
+	import { onMount } from 'svelte';
 	let milestones = [
 		{
-			date: 'Feb 24, 2025',
+			date: 'Feb 28, 2025',
 			title: 'Application Period Opens'
 		},
 		{
-			date: 'Mar 24, 2025',
+			date: 'Mar 16, 2025',
 			title: 'Application Period Closes'
 		},
 		{
-			date: 'Apr 25, 2025',
+			date: 'May 9, 2025',
 			title: 'Kick-off Event'
 		},
 		{
-			date: 'Jun 6, 2025',
+			date: 'Jun 20, 2025',
 			title: 'Mid-term Presentations'
 		},
 		{
-			date: 'Jul 18, 2025',
+			date: 'Aug 1, 2025',
 			title: 'Final Presentations'
 		}
 	];
@@ -83,6 +83,27 @@
 			icon: Briefcase
 		}
 	];
+
+	let mounted = false;
+	let gradientAngle = 0;
+
+	onMount(() => {
+		mounted = true;
+
+		// Set up the animation loop for the gradient rotation
+		const animateGradient = () => {
+			gradientAngle = (gradientAngle + 1) % 360;
+			requestAnimationFrame(animateGradient);
+		};
+
+		// Start the animation
+		const animation = requestAnimationFrame(animateGradient);
+
+		// Clean up on component unmount
+		return () => {
+			cancelAnimationFrame(animation);
+		};
+	});
 </script>
 
 <div
@@ -96,11 +117,27 @@
 			project. Gain hands-on experience, build your blockchain expertise and earn a competitive
 			salary!
 		</p>
-		<Button
+		<!-- <Button
 			href="https://apply.tum-blockchain.com/industry-student-waitlist"
 			class="w-fit text-sm"
 			variant="secondary">Join the Waitlist</Button
+		> -->
+
+		<div
+			class="border-gradient w-fit overflow-hidden rounded-md transition-transform duration-300"
+			style:--gradient-angle="{gradientAngle}deg"
 		>
+			<Button
+				href="https://apply.tum-blockchain.com/blocksprint"
+				variant="ghost"
+				class="relative z-10 flex w-fit gap-1 hover:bg-zinc-900"
+			>
+				<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
+					Apply now!
+				</p>
+				<ChevronRight class="h-5 w-5" />
+			</Button>
+		</div>
 	</div>
 	<div class="order-2 flex items-center justify-center sm:order-1">
 		<GraduationCap
@@ -135,7 +172,7 @@
 					<li>Commitment: 15-20h per week</li>
 					<li>Teams: 2-4 students per project</li>
 					<li>Compensation: highly competitive</li>
-					<li>Application: starting 3rd March 2025</li>
+					<li>Application: starting 28th February 2025</li>
 				</ul>
 			</div>
 		</div>
@@ -206,3 +243,22 @@
 </div>
 
 <Faq category="students" />
+
+<style>
+	.border-gradient {
+		--c: #09090b;
+		--p: 10%;
+		--gradient-angle: 0deg;
+		background:
+			linear-gradient(var(--c), var(--c)) padding-box,
+			conic-gradient(
+					from var(--gradient-angle),
+					transparent,
+					white var(--p),
+					transparent calc(var(--p) * 2)
+				)
+				border-box;
+		border: 1px solid transparent;
+		position: relative;
+	}
+</style>
