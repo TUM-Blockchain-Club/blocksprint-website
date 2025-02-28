@@ -24,6 +24,10 @@
 	import solanabeach from '$lib/img/solanabeach.svg';
 	import superteamgermany from '$lib/img/superteamgermany.svg';
 	import wmdatenservice from '$lib/img/wmdatenservice.svg';
+	import stablelab from '$lib/img/stablelab.svg';
+	import munichre from '$lib/img/munichre.svg';
+	import boersestuttgart from '$lib/img/boersestuttgart.svg';
+	import stakingfacilities from '$lib/img/stakingfacilities.svg';
 </script>
 
 <div
@@ -46,9 +50,128 @@
 	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Spring 2025</h2>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
+		Upcoming
+	</p>
+	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={stablelab} alt="StableLab" class="h-6" />
+			</div>
+			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				AI-Driven DAO Governance
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Expanding decentralized governance solutions with cutting-edge AI.
+				<br /><br />
+				The project team will have the opportunity to develop AI solutions to enhance the offering of
+				StableLab and have an impact on the future of DAO governance.
+			</p>
+			<Button
+				href="https://tum-blockchain.notion.site/StableLab-AI-driven-DAO-governance-1a3c28b1e10e80f3b70dd7584b1d3274?pvs=4"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={solanabeach} alt="Solana Beach" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Mobile App Development
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Building mobile app for monitoring blockchain network activity.
+				<br /><br />
+				Ambitious students will build a user-friendly mobile blockchain explorer, providing real-time
+				insights into Solana activity and enhancing community engagement.
+			</p>
+			<Button
+				href="https://tum-blockchain.notion.site/Solana-Beach-Mobile-App-Development-188fbd739dd443ffb5ab22bfe19ac8e7?pvs=4"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={munichre} alt="Munich Re" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Crypto AI Agents Security
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Analyzing the existing crypto agent frameworks, pick top performers and implement on
+				testnet.
+				<br /><br />
+				A dedicated team will analyze and deploy Crypto Agents, contributing to AI-driven blockchain
+				security and automation.
+			</p>
+			<Button
+				href="https://tum-blockchain.notion.site/Munich-Re-Crypto-AI-Agents-Security-41d28b348f5944ee857ac59734d018b9?pvs=4"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={boersestuttgart} alt="Börse Stuttgart Digital" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Automated Asset Monitoring
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				A software monitoring system for cryptocurrencies.
+				<br /><br />
+				Develop an automated system to improve monitoring, compliance, and risk detection for cryptocurrency
+				listings to ensure regulatory compliance and optimize resource efficiency.
+			</p>
+			<Button
+				href="https://tum-blockchain.notion.site/B-rse-Stuttgart-Automated-Asset-Monitoring-d68f776c002a4655baad28e25bbdf79a?pvs=4"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={stakingfacilities} alt="Staking Facilities" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Blockchain Testing Infrastructure
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Setting up and optimizing blockchain testing infrastructure.
+				<br /><br />
+				The team will design and deploy blockchain testing infrastructure in a Munich data center, focusing
+				on hardware configuration, network optimization, and blockchain environment testing.
+			</p>
+			<Button
+				href="https://tum-blockchain.notion.site/Staking-Facilities-Blockchain-Testing-Infrastructure-7a740641cab9472fa9f1ee2c24ea8e1b?pvs=4"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10"></div>
+	</div>
+</div>
+
+<div
+	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
+	in:blur={{ delay: 50, duration: 500 }}
+>
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Fall 2024</h2>
 	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
-		Ongoing
+		Completed
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
