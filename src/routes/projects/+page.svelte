@@ -57,7 +57,9 @@
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
-				<img src={stablelab} alt="StableLab" class="h-6" />
+				<div class="flex h-6 items-center">
+					<img src={stablelab} alt="StableLab" class="my-auto h-3" />
+				</div>
 			</div>
 			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				AI-Driven DAO Governance
@@ -99,7 +101,7 @@
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
-				<img src={munichre} alt="Munich Re" class="h-6" />
+				<p>Munich Re</p>
 			</div>
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Crypto AI Agents Security

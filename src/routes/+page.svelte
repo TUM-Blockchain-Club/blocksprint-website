@@ -69,7 +69,7 @@
 					class="relative z-10 flex gap-1 hover:bg-zinc-900"
 				>
 					<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-						Apply now!
+						Apply for BlockSprint!
 					</p>
 					<ChevronRight class="h-5 w-5" />
 				</Button>
