@@ -34,15 +34,17 @@
 	class="mx-auto flex w-fit max-w-6xl flex-col gap-5 px-3 pt-10 sm:px-6"
 	in:blur={{ delay: 50, duration: 300 }}
 >
-	<h2 class="text-center text-2xl font-semibold text-foreground sm:text-3xl md:text-4xl">
+	<h2
+		class="text-left text-2xl font-semibold text-foreground sm:text-center sm:text-3xl md:text-4xl"
+	>
 		BlockSprint Projects
 	</h2>
-	<p class="text max-w-3xl text-center text-sm text-muted-foreground sm:text-base md:text-lg">
-		BlockSprint is a hands-on project initiative by the TUM Blockchain Club, where students
-		collaborate with industry partners to tackle real-world blockchain challenges. We successfully
-		completed the 1st iteration, where student teams worked on innovative solutions for various
-		industry projects. Currently, we are in the 2nd iteration, continuing our mission to bridge the
-		gap between academia and the blockchain industry through impactful projects.
+	<p
+		class="text max-w-md text-left text-sm text-muted-foreground sm:max-w-3xl sm:text-center sm:text-base md:text-lg"
+	>
+		BlockSprint connects students with industry partners to solve real-world blockchain challenges.
+		After an impactful 2nd iteration, we're now starting the 3rd, driving innovation and bridging
+		academia with the blockchain industry.
 	</p>
 </div>
 
