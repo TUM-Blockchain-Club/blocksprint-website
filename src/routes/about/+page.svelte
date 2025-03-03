@@ -24,20 +24,16 @@
 			title: 'Formation of the Industry Team'
 		},
 		{
-			date: '04/2024',
-			title: 'Kick-off Event for the first Iteration'
+			date: '04/2024 - 07/2024',
+			title: 'First Iteration of the BlockSprint'
 		},
 		{
-			date: '05/2024',
-			title: 'Midterm Checkpoint for the first Iteration'
+			date: '10/2024 - 01/2025',
+			title: 'Second Iteration of the BlockSprint'
 		},
 		{
-			date: '07/2024',
-			title: 'Final Event of the first Iteration'
-		},
-		{
-			date: '10/2024',
-			title: 'Kick-off Event for the second Iteration'
+			date: '05/2025 - 08/2025',
+			title: 'Third Iteration of the BlockSprint'
 		}
 	];
 
