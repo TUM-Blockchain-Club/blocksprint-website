@@ -168,7 +168,7 @@
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
-				<img src={hauck} alt="Hauck Aufhäuser" class="h-6" />
+				<p>Hauck Aufhäuser</p>
 			</div>
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Institutional Wallet Connectivity
