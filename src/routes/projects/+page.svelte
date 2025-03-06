@@ -28,6 +28,7 @@
 	import munichre from '$lib/img/munichre.svg';
 	import boersestuttgart from '$lib/img/boersestuttgart.svg';
 	import stakingfacilities from '$lib/img/stakingfacilities.svg';
+	import hauck from '$lib/img/hauck.svg';
 </script>
 
 <div
@@ -165,7 +166,27 @@
 				variant="secondary">Learn More</Button
 			>
 		</div>
-		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10"></div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={hauck} alt="Hauck Aufhäuser" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Institutional Wallet Connectivity
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Developing a secure WalletConnect integration for institutional custody.
+				<br /><br />
+				Join a pioneering team to analyse and prototype WalletConnect integration for institutional wallets,
+				enhancing security and compliance in regulated crypto custody.
+			</p>
+			<Button
+				href="https://tum-blockchain.notion.site/Hauck-Aufh-user-Digital-Custody-WalletConnect-for-Institutions-1a8c28b1e10e802eb84de5e9ca41b658"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
 	</div>
 </div>
 
