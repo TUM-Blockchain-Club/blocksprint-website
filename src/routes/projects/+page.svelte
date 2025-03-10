@@ -168,9 +168,11 @@
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
-				<p>Hauck Aufhäuser</p>
+				<div class="-m-0.5">
+					<img src={hauck} alt="Hauck Aufhäuser" class="h-8" />
+				</div>
 			</div>
-			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+			<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Institutional Wallet Connectivity
 			</h2>
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
