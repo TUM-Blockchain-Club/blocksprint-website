@@ -13,7 +13,7 @@
 </script>
 
 <div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6">
-	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Project Partners</h2>
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Partners</h2>
 	<p class="mx-auto mb-10 max-w-md text-center text-sm text-muted-foreground md:text-base">
 		We connect partners with the best student talent for their Web3-related projects.
 	</p>
