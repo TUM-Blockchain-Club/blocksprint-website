@@ -117,13 +117,13 @@
 			project. Gain hands-on experience, build your blockchain expertise and earn a competitive
 			salary!
 		</p>
-		<!-- <Button
+		<Button
 			href="https://apply.tum-blockchain.com/industry-student-waitlist"
 			class="w-fit text-sm"
 			variant="secondary">Join the Waitlist</Button
-		> -->
+		>
 
-		<div
+		<!-- <div
 			class="border-gradient w-fit overflow-hidden rounded-md transition-transform duration-300"
 			style:--gradient-angle="{gradientAngle}deg"
 		>
@@ -137,7 +137,7 @@
 				</p>
 				<ChevronRight class="h-5 w-5" />
 			</Button>
-		</div>
+		</div> -->
 	</div>
 	<div class="order-2 flex items-center justify-center sm:order-1">
 		<GraduationCap

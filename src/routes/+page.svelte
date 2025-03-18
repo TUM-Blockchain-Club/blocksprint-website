@@ -47,7 +47,7 @@
 			3-month projects with innovative companies, students tackle exciting, real-world challenges.
 		</p>
 		<div class="mx-auto mt-5 grid w-fit gap-4 sm:flex" in:blur={{ delay: 50, duration: 500 }}>
-			<!-- <Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
+			<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
 			<Button
 				href="https://apply.tum-blockchain.com/talent-pool"
 				variant="ghost"
@@ -57,9 +57,9 @@
 					Join the Talentpool
 				</p>
 				<ChevronRight class="h-5 w-5" />
-			</Button> -->
+			</Button>
 
-			<div
+			<!-- <div
 				class="border-gradient overflow-hidden rounded-md transition-transform duration-300"
 				style:--gradient-angle="{gradientAngle}deg"
 			>
@@ -73,7 +73,7 @@
 					</p>
 					<ChevronRight class="h-5 w-5" />
 				</Button>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
