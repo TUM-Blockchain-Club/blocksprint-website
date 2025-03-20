@@ -122,22 +122,6 @@
 			class="w-fit text-sm"
 			variant="secondary">Join the Waitlist</Button
 		>
-
-		<!-- <div
-			class="border-gradient w-fit overflow-hidden rounded-md transition-transform duration-300"
-			style:--gradient-angle="{gradientAngle}deg"
-		>
-			<Button
-				href="https://apply.tum-blockchain.com/blocksprint"
-				variant="ghost"
-				class="relative z-10 flex w-fit gap-1 hover:bg-zinc-900"
-			>
-				<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-					Apply now!
-				</p>
-				<ChevronRight class="h-5 w-5" />
-			</Button>
-		</div> -->
 	</div>
 	<div class="order-2 flex items-center justify-center sm:order-1">
 		<GraduationCap

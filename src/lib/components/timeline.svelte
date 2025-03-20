@@ -19,7 +19,6 @@
 			</p>
 		</div>
 
-		<!-- Mobile Timeline -->
 		<div class="mx-auto w-fit md:mx-0">
 			{#each milestones as milestone, index}
 				<div class="flex items-start space-x-4">
@@ -49,29 +48,3 @@
 		</div>
 	</div>
 </section>
-
-<!--
-		Desktop Timeline
-		<div class="relative hidden items-center justify-between md:flex">
-			Connecting Line
-			<div class="absolute left-0 right-0 top-6 h-[1px] rounded-full bg-zinc-800"></div>
-
-			Milestones
-			{#each milestones as milestone, index}
-				<div class="relative flex w-48 flex-col items-center">
-					Circle
-					<div class="relative z-10 h-12 w-12 rounded-full border border-zinc-800 bg-zinc-950">
-						<Calendar class="mx-auto mb-4 mt-3 h-5 w-5 text-foreground" />
-					</div>
-
-					<div class="mt-6 text-lg font-medium text-foreground">
-						{milestone.date}
-					</div>
-
-					<div class="mt-2 text-center text-sm text-muted-foreground">
-						{milestone.title}
-					</div>
-				</div>
-			{/each}
-		</div>
--->
