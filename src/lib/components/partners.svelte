@@ -36,6 +36,6 @@
 		<img src={hauck} alt="Hauck Aufhäuser" class="mx-auto h-12" />
 		<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-8" />
 		<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
-		<!-- <img src={munichre} alt="Munich Re" class="mx-auto h-8" /> -->
+		<img src={munichre} alt="Munich Re" class="mx-auto h-8" />
 	</Marquee>
 </div>

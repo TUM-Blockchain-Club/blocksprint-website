@@ -104,7 +104,7 @@
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
-				<p>Munich Re</p>
+				<img src={munichre} alt="Munich Re" class="h-6" />
 			</div>
 			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
 				Crypto AI Agents Security
