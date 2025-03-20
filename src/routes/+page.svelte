@@ -139,21 +139,16 @@
 					in:blur={{ delay: 50, duration: 800 }}
 				>
 					<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
-					<div
-						class="border-gradient overflow-hidden rounded-md transition-transform duration-300"
-						style:--gradient-angle="{gradientAngle}deg"
+					<Button
+						href="https://apply.tum-blockchain.com/talent-pool"
+						variant="ghost"
+						class="flex gap-1"
 					>
-						<Button
-							href="https://apply.tum-blockchain.com/talent-pool"
-							variant="ghost"
-							class="relative z-10 flex gap-1 hover:bg-zinc-900"
-						>
-							<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-								Join the Talent Pool
-							</p>
-							<ChevronRight class="h-5 w-5" />
-						</Button>
-					</div>
+						<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
+							Join the Talent Pool
+						</p>
+						<ChevronRight class="h-5 w-5" />
+					</Button>
 				</div>
 			</div>
 		</div>
