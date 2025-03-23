@@ -32,10 +32,10 @@
 		<img src={bosch} alt="Bosch" class="mx-auto h-8" />
 		<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
 		<img src={boersestuttgart} alt="Börse Stuttgart" class="mx-auto h-8" />
+		<img src={munichre} alt="Munich Re" class="mx-auto h-8" />
 		<img src={stablelab} alt="StableLab" class="mx-auto my-auto h-5" />
 		<img src={hauck} alt="Hauck Aufhäuser" class="mx-auto h-12" />
 		<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-8" />
 		<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
-		<img src={munichre} alt="Munich Re" class="mx-auto h-8" />
 	</Marquee>
 </div>
