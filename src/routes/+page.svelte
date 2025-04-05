@@ -124,7 +124,7 @@
 
 	<Testimonials />
 
-	<div class="flex w-full items-center bg-gradient-to-b from-zinc-950 to-zinc-900">
+	<div class="flex w-full items-center">
 		<div
 			class="mx-auto my-auto flex w-full max-w-6xl flex-col justify-between gap-8 px-3 py-16 sm:px-6 sm:py-20 md:flex-row md:py-24"
 		>
@@ -139,16 +139,21 @@
 					in:blur={{ delay: 50, duration: 800 }}
 				>
 					<Button href="https://apply.tum-blockchain.com/industry-partner">Become a partner</Button>
-					<Button
-						href="https://apply.tum-blockchain.com/talent-pool"
-						variant="ghost"
-						class="flex gap-1"
+					<div
+						class="border-gradient overflow-hidden rounded-md transition-transform duration-300"
+						style:--gradient-angle="{gradientAngle}deg"
 					>
-						<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-							Join the Talent Pool
-						</p>
-						<ChevronRight class="h-5 w-5" />
-					</Button>
+						<Button
+							href="https://apply.tum-blockchain.com/talent-pool"
+							variant="ghost"
+							class="relative z-10 flex gap-1 hover:bg-zinc-900"
+						>
+							<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
+								Join the Talent Pool
+							</p>
+							<ChevronRight class="h-5 w-5" />
+						</Button>
+					</div>
 				</div>
 			</div>
 		</div>
