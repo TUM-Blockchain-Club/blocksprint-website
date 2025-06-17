@@ -5,6 +5,9 @@ on:
     branches:
       - development
 
+permissions:
+  contents: read
+
 jobs:
   dev:
     name: "dev"
