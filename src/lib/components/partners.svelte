@@ -8,6 +8,7 @@
 	import munichre from '$lib/img/munichre.svg';
 	import boersestuttgart from '$lib/img/boersestuttgart.svg';
 	import stakingfacilities from '$lib/img/stakingfacilities.svg';
+	import Marquee from 'svelte-fast-marquee';
 	import hauck from '$lib/img/hauck.svg';
 </script>
 
@@ -25,51 +26,16 @@
 		class="pointer-events-none absolute right-0 z-10 h-full w-16 bg-gradient-to-l from-background to-transparent sm:w-32 md:w-64"
 	></div>
 
-	<div class="marquee-container">
-		<div class="marquee flex items-center">
-			<img src={solanabeach} alt="Solanabeach" class="mx-auto h-8" />
-			<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
-			<img src={bosch} alt="Bosch" class="mx-auto h-8" />
-			<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
-			<img src={boersestuttgart} alt="Börse Stuttgart" class="mx-auto h-8" />
-			<img src={munichre} alt="Munich Re" class="mx-auto h-8" />
-			<img src={stablelab} alt="StableLab" class="mx-auto my-auto h-5" />
-			<img src={hauck} alt="Hauck Aufhäuser" class="mx-auto h-12" />
-			<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-8" />
-			<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
-			<!-- Duplicate for seamless loop -->
-			<img src={solanabeach} alt="Solanabeach" class="mx-auto h-8" />
-			<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
-			<img src={bosch} alt="Bosch" class="mx-auto h-8" />
-			<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
-			<img src={boersestuttgart} alt="Börse Stuttgart" class="mx-auto h-8" />
-			<img src={munichre} alt="Munich Re" class="mx-auto h-8" />
-			<img src={stablelab} alt="StableLab" class="mx-auto my-auto h-5" />
-			<img src={hauck} alt="Hauck Aufhäuser" class="mx-auto h-12" />
-			<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-8" />
-			<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
-		</div>
-	</div>
+	<Marquee gap="70px" speed={30}>
+		<img src={solanabeach} alt="Solanabeach" class="mx-auto h-8" />
+		<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-8" />
+		<img src={bosch} alt="Bosch" class="mx-auto h-8" />
+		<img src={deloitte} alt="Deloitte" class="mx-auto h-8" />
+		<img src={boersestuttgart} alt="Börse Stuttgart" class="mx-auto h-8" />
+		<img src={munichre} alt="Munich Re" class="mx-auto h-8" />
+		<img src={stablelab} alt="StableLab" class="mx-auto my-auto h-5" />
+		<img src={hauck} alt="Hauck Aufhäuser" class="mx-auto h-12" />
+		<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-8" />
+		<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-8" />
+	</Marquee>
 </div>
-
-<style>
-	.marquee-container {
-		overflow: clip;
-	}
-	.marquee {
-		display: flex;
-		width: max-content;
-		gap: 70px;
-		padding-left: 20px;
-		animation-name: marquee-animation;
-		animation-timing-function: linear;
-		animation-iteration-count: infinite;
-		animation-duration: 70s;
-		animation-direction: forwards;
-	}
-	@keyframes marquee-animation {
-		to {
-			transform: translateX(-50%);
-		}
-	}
-</style>
