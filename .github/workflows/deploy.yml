@@ -1,4 +1,6 @@
 name: "Deploy Vercel"
+permissions:
+  contents: read
 
 on:
   workflow_call:
