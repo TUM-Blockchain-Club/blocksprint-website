@@ -118,9 +118,9 @@
 			salary!
 		</p>
 		<Button
-			href="https://apply.tum-blockchain.com/industry-student-waitlist"
+			href="https://apply.tum-blockchain.com/talent-pool"
 			class="w-fit text-sm"
-			variant="secondary">Join the Waitlist</Button
+			variant="secondary">Join the Talent Pool</Button
 		>
 	</div>
 	<div class="order-2 flex items-center justify-center sm:order-1">
@@ -227,22 +227,3 @@
 </div>
 
 <Faq category="students" />
-
-<style>
-	.border-gradient {
-		--c: #09090b;
-		--p: 10%;
-		--gradient-angle: 0deg;
-		background:
-			linear-gradient(var(--c), var(--c)) padding-box,
-			conic-gradient(
-					from var(--gradient-angle),
-					transparent,
-					white var(--p),
-					transparent calc(var(--p) * 2)
-				)
-				border-box;
-		border: 1px solid transparent;
-		position: relative;
-	}
-</style>
