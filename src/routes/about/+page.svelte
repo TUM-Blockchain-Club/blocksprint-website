@@ -17,6 +17,10 @@
 	import felix from '$lib/img/felix.png';
 	import thomas from '$lib/img/thomas.png';
 	import hofmann from '$lib/img/hofmann.jpg';
+	import georg from '$lib/img/georg.jpg';
+	import laura from '$lib/img/laura.jpg';
+	import anoushk from '$lib/img/anoushk.jpg';
+
 
 	let milestones = [
 		{
@@ -98,6 +102,22 @@
 			name: 'Daniel Wiedenmann',
 			linkedin: 'https://www.linkedin.com/in/daniel-wiedenmann/'
 		}
+		/*,
+		{
+			image: laura,
+			name: 'Laura Gullicksen',
+			linkedin: 'https://www.linkedin.com/in/laura-g-51262a1a1/'
+		},
+		{
+			image: georg,
+			name: 'Georg Beyschlag',
+			linkedin: 'www.linkedin.com/in/georg-beyschlag-46bab0177'
+		},
+		{
+			image: anoushk,
+			name: 'Anoushk Kolagotla',
+			linkedin: 'https://www.linkedin.com/in/anoushkv/'
+		}*/
 	];
 </script>
 

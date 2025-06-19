@@ -129,7 +129,7 @@
 				<ul class="list-disc pl-4 text-muted-foreground">
 					<li>Conducting research</li>
 					<li>Developing a prototype</li>
-					<li>Improving existing product and processes</li>
+					<li>Improving existing products and processes</li>
 				</ul>
 				<p class="text-muted-foreground">We will help you define a well-structured project!</p>
 			</div>

@@ -25,23 +25,23 @@
 	import { onMount } from 'svelte';
 	let milestones = [
 		{
-			date: 'Feb 28, 2025',
+			date: 'Sep 01, 2025',
 			title: 'Application Period Opens'
 		},
 		{
-			date: 'Mar 16, 2025',
+			date: 'Sep 14, 2025',
 			title: 'Application Period Closes'
 		},
 		{
-			date: 'May 9, 2025',
+			date: 'Oct 24, 2025',
 			title: 'Kick-off Event'
 		},
 		{
-			date: 'Jun 20, 2025',
+			date: 'Dec 05, 2025',
 			title: 'Mid-term Presentations'
 		},
 		{
-			date: 'Aug 1, 2025',
+			date: 'Jan 16, 2026',
 			title: 'Final Presentations'
 		}
 	];
@@ -156,7 +156,7 @@
 					<li>Commitment: 15-20h per week</li>
 					<li>Teams: 2-4 students per project</li>
 					<li>Compensation: highly competitive</li>
-					<li>Application: starting 28th February 2025</li>
+					<li>Application: starting 1st August 2025</li>
 				</ul>
 			</div>
 		</div>
