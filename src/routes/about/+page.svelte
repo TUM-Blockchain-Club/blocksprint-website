@@ -41,7 +41,7 @@
 		{
 			image: georg,
 			name: 'Georg Beyschlag',
-			linkedin: 'www.linkedin.com/in/georg-beyschlag-46bab0177'
+			linkedin: 'https://www.linkedin.com/in/georg-beyschlag-46bab0177'
 		},
 		{
 			image: laura,
