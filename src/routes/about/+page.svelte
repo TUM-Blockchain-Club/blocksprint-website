@@ -5,14 +5,11 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { blur } from 'svelte/transition';
 	import giga from '$lib/img/gigachad.jpeg';
-	import iana from '$lib/img/iana.jpg';
 	import daniel from '$lib/img/daniel.jpg';
 	import aysenur from '$lib/img/aysenur.jpg';
 	import ekaterina from '$lib/img/ekaterina.png';
-	import salan from '$lib/img/salan.jpg';
 	import daniil from '$lib/img/daniil.jpg';
 	import tian from '$lib/img/tian.jpg';
-	import yunan from '$lib/img/yunan.png';
 	import ji from '$lib/img/ji.jpeg';
 	import felix from '$lib/img/felix.png';
 	import thomas from '$lib/img/thomas.png';
@@ -20,7 +17,6 @@
 	import georg from '$lib/img/georg.jpg';
 	import laura from '$lib/img/laura.jpg';
 	import anoushk from '$lib/img/anoushk.jpg';
-
 
 	let milestones = [
 		{
@@ -43,19 +39,29 @@
 
 	let members = [
 		{
+			image: georg,
+			name: 'Georg Beyschlag',
+			linkedin: 'www.linkedin.com/in/georg-beyschlag-46bab0177'
+		},
+		{
+			image: laura,
+			name: 'Laura Gullicksen',
+			linkedin: 'https://www.linkedin.com/in/laura-g-51262a1a1/'
+		},
+		{
 			image: hofmann,
 			name: 'Jakob Hofmann',
 			linkedin: 'https://www.linkedin.com/in/jakob-hofmann-b413aa240/'
 		},
 		{
-			image: salan,
-			name: 'Salan Isaqzoi',
-			linkedin: 'https://www.linkedin.com/in/salan-isa/'
-		},
-		{
 			image: ji,
 			name: 'Jakob Isermann',
 			linkedin: 'https://www.linkedin.com/in/jis3r/'
+		},
+		{
+			image: anoushk,
+			name: 'Anoushk Kolagotla',
+			linkedin: 'https://www.linkedin.com/in/anoushkv/'
 		},
 		{
 			image: daniil,
@@ -66,16 +72,6 @@
 			image: ekaterina,
 			name: 'Ekaterini Laro',
 			linkedin: 'https://www.linkedin.com/in/katerina-laro-992335198/'
-		},
-		{
-			image: yunan,
-			name: 'Yunan Li',
-			linkedin: 'https://www.linkedin.com/in/phillip-l-b55423308/'
-		},
-		{
-			image: iana,
-			name: 'Iana Makhonina',
-			linkedin: 'https://www.linkedin.com/in/iana-makhonina-110748200'
 		},
 		{
 			image: aysenur,
@@ -102,22 +98,6 @@
 			name: 'Daniel Wiedenmann',
 			linkedin: 'https://www.linkedin.com/in/daniel-wiedenmann/'
 		}
-		/*,
-		{
-			image: laura,
-			name: 'Laura Gullicksen',
-			linkedin: 'https://www.linkedin.com/in/laura-g-51262a1a1/'
-		},
-		{
-			image: georg,
-			name: 'Georg Beyschlag',
-			linkedin: 'www.linkedin.com/in/georg-beyschlag-46bab0177'
-		},
-		{
-			image: anoushk,
-			name: 'Anoushk Kolagotla',
-			linkedin: 'https://www.linkedin.com/in/anoushkv/'
-		}*/
 	];
 </script>
 
