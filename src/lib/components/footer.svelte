@@ -28,10 +28,9 @@
 								class="mb-4 text-sm text-muted-foreground hover:underline">Imprint</a
 							>
 							<a
-								href="https://www.tum-blockchain.com/privacy-policy"
-								target="_blank"
-								rel="noopener"
-								class="mb-4 text-sm text-muted-foreground hover:underline">Privacy</a
+								href="https://drive.google.com/file/d/1TcXdGF5jARyVKreqJ4ht3Q2ICGOEuyPt/view"
+  								class="mb-4 text-sm text-muted-foreground hover:underline">
+  								Privacy</a
 							>
 							<a
 								href="mailto:industry@tum-blockchain.com"
