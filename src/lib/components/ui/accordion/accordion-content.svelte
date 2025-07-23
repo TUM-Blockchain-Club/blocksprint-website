@@ -1,17 +1,17 @@
 <script>
-	import { Accordion as AccordionPrimitive } from "bits-ui";
-	import { slide } from "svelte/transition";
-	import { cn } from "$lib/utils.js";
+	import { Accordion as AccordionPrimitive } from 'bits-ui';
+	import { slide } from 'svelte/transition';
+	import { cn } from '$lib/utils.js';
 	let className = undefined;
 	export let transition = slide;
 	export let transitionConfig = {
-		duration: 200,
+		duration: 200
 	};
 	export { className as class };
 </script>
 
 <AccordionPrimitive.Content
-	class={cn("overflow-hidden text-sm transition-all", className)}
+	class={cn('overflow-hidden text-sm transition-all', className)}
 	{transition}
 	{transitionConfig}
 	{...$$restProps}

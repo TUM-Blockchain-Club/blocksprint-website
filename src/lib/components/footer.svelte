@@ -29,8 +29,9 @@
 							>
 							<a
 								href="https://drive.google.com/file/d/1TcXdGF5jARyVKreqJ4ht3Q2ICGOEuyPt/view"
-  								class="mb-4 text-sm text-muted-foreground hover:underline">
-  								Privacy</a
+								class="mb-4 text-sm text-muted-foreground hover:underline"
+							>
+								Privacy</a
 							>
 							<a
 								href="mailto:industry@tum-blockchain.com"

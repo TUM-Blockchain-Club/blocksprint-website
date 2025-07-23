@@ -1,4 +1,4 @@
-name: "Deploy Development"
+name: 'Deploy Development'
 
 on:
   push:
@@ -10,10 +10,10 @@ permissions:
 
 jobs:
   dev:
-    name: "dev"
+    name: 'dev'
     uses: ./.github/workflows/deploy.yml
     with:
-      environment: "dev"
+      environment: 'dev'
     secrets:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
