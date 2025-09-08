@@ -29,6 +29,9 @@
 	import boersestuttgart from '$lib/img/boersestuttgart.svg';
 	import stakingfacilities from '$lib/img/stakingfacilities.svg';
 	import hauck from '$lib/img/hauck.svg';
+	import rolandberger from '$lib/img/rolandberger.svg';
+	import pwc from '$lib/img/pwc.svg';
+	import bitvavo from '$lib/img/bitvavo.svg';
 </script>
 
 <div
@@ -53,9 +56,137 @@
 	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Fall 2025</h2>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
+		Upcoming
+	</p>
+	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<div class="-m-0.5">
+					<img src={hauck} alt="HADC" class="h-8" />
+				</div>
+			</div>
+			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Framework for Smart Contract Lifecycle Management
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Developing a framework for smart contract lifecycle management for tokenization projects.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/HADC-Framework-for-Smart-Contract-Lifecycle-Management-in-Tokenization-Projects-25d486d1154d80a9be88e1a489d5eed7?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={pwc} alt="PWC" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Enterprise Blockchain Research Project
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Explore how blockchain, Web3, and AI can help companies during market crises by identifying
+				use cases and bridging traditional business with emerging tech.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/PWC-Enterprise-Blockchain-Research-Project-268486d1154d80edb196f06cfcb79ace?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<div class="flex h-6 items-center">
+					<img src={bitvavo} alt="Bitvavo" class="my-auto h-3" />
+				</div>
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Comparison Landing Page for Exchange & Broker Fees
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Develop a transparent and user-friendly comparison landing page to showcase real-time prices
+				and trading fees across crypto exchanges.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/Bitvavo-Market-Analysis-Website-development-263486d1154d8107a2caebecc70508af?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={rolandberger} alt="Roland Berger" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Digital Currencies Research Projects
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Explore how banks can design and integrate wallets with additional value-added services and
+				identify smart implementation models for the future of banking.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/Roland-Berger-Digital-Currencies-Research-Projects-261486d1154d800caa71d5629f8fd489?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={stakingfacilities} alt="Staking Facilities" class="h-6" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Streaming Consensus Data in Sui Network
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Prototype real-time consensus data streaming to improve latency and responsiveness in the
+				Sui blockchain.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/Staking-Facilities-Streaming-Consensus-Data-in-Sui-Network-268486d1154d807c8a21e89db08a2f34?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<p>BMW & Tezos</p>
+			</div>
+			<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				BMW - Tezos (ENVITED-X to Etherlink)
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Migrate ENVITED-X to Etherlink to enable secure, scalable automotive data sharing.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/BMW-Tezos-Secure-Automotive-Data-Sharing-257486d1154d815cb023ebd26e7a8c08?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+	</div>
+</div>
+
+<div
+	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
+	in:blur={{ delay: 50, duration: 500 }}
+>
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Spring 2025</h2>
 	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
-		Ongoing
+		Completed
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
@@ -70,7 +201,7 @@
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				Expanding decentralized governance solutions with cutting-edge AI.
 				<br /><br />
-				The project team develops AI solutions to enhance the offering of StableLab and actively contributes
+				The project team developed AI solutions to enhance the offering of StableLab and actively contributed
 				to the future of DAO governance.
 			</p>
 			<Button
@@ -91,8 +222,8 @@
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				Building mobile app for monitoring blockchain network activity.
 				<br /><br />
-				Ambitious students build a user-friendly mobile blockchain explorer, provide real-time insights
-				into Solana activity, and enhance community engagement.
+				Ambitious students built a user-friendly mobile blockchain explorer, provided real-time insights
+				into Solana activity, and enhanced community engagement.
 			</p>
 			<Button
 				href="https://tum-blockchain.notion.site/Solana-Beach-Mobile-App-Development-188fbd739dd443ffb5ab22bfe19ac8e7?pvs=4"
@@ -113,7 +244,7 @@
 				Analyzing the existing crypto agent frameworks, pick top performers and implement on
 				testnet.
 				<br /><br />
-				A dedicated team analyzes and deploys Crypto Agents, contributing to AI-driven blockchain security
+				A dedicated team analyzed and deployed Crypto Agents, contributing to AI-driven blockchain security
 				and automation.
 			</p>
 			<Button
@@ -134,8 +265,8 @@
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				A software monitoring system for cryptocurrencies.
 				<br /><br />
-				The team develops an automated system to improve monitoring, compliance, and risk detection for
-				cryptocurrency listings, ensuring regulatory compliance and optimizing resource efficiency.
+				The team developed an automated system to improve monitoring, compliance, and risk detection
+				for cryptocurrency listings, ensuring regulatory compliance and optimizing resource efficiency.
 			</p>
 			<Button
 				href="https://tum-blockchain.notion.site/B-rse-Stuttgart-Automated-Asset-Monitoring-d68f776c002a4655baad28e25bbdf79a?pvs=4"
@@ -155,7 +286,7 @@
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				Setting up and optimizing blockchain testing infrastructure.
 				<br /><br />
-				The team designs and deploys blockchain testing infrastructure in a Munich data center, focusing
+				The team designed and deployed blockchain testing infrastructure in a Munich data center, focusing
 				on hardware configuration, network optimization, and blockchain environment testing.
 			</p>
 			<Button
@@ -178,7 +309,7 @@
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				Developing a secure WalletConnect integration for institutional custody.
 				<br /><br />
-				A pioneering team analyses and prototypes WalletConnect integration for institutional wallets,
+				A pioneering team analyzed and prototyped WalletConnect integration for institutional wallets,
 				enhancing security and compliance in regulated crypto custody.
 			</p>
 			<Button
