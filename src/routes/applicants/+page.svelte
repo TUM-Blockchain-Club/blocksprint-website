@@ -118,9 +118,9 @@
 			salary!
 		</p>
 		<Button
-			href="https://apply.tum-blockchain.com/talent-pool"
+			href="https://apply.tum-blockchain.com/blocksprint"
 			class="w-fit text-sm"
-			variant="secondary">Join the Talent Pool</Button
+			variant="secondary">Apply for BlockSprint</Button
 		>
 	</div>
 	<div class="order-2 flex items-center justify-center sm:order-1">
