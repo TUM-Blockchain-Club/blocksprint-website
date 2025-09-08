@@ -47,8 +47,8 @@
 		class="text max-w-md text-left text-sm text-muted-foreground sm:max-w-3xl sm:text-center sm:text-base md:text-lg"
 	>
 		BlockSprint connects students with industry partners to solve real-world blockchain challenges.
-		Following the impactful 2nd iteration, the 3rd iteration is currently underway, driving
-		innovation and bridging academia with the blockchain industry.
+		Following three impactful iterations, the 4th iteration is coming up, driving innovation and
+		bridging academia with the blockchain industry.
 	</p>
 </div>
 
