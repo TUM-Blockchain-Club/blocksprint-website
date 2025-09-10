@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { scramble } from '$lib/utils/scramble.js';
 	import tbc from '$lib/img/tbc.svg';
-	import { Menu, X } from 'lucide-svelte';
+	import { Menu, X } from '@lucide/svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';

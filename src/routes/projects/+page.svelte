@@ -17,7 +17,7 @@
 		HandCoins,
 		PocketKnife,
 		Rocket
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import bosch from '$lib/img/bosch.svg';
 	import deloitte from '$lib/img/deloitte.svg';

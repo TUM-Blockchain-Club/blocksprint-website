@@ -1,5 +1,5 @@
 <script>
-	import { ChevronRight } from 'lucide-svelte';
+	import { ChevronRight } from '@lucide/svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { onMount } from 'svelte';
 

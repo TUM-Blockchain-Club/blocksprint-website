@@ -1,5 +1,5 @@
 <script>
-	import { Calendar, Rocket } from 'lucide-svelte';
+	import { Calendar, Rocket } from '@lucide/svelte';
 
 	let { tag, title, subtitle, milestones = [] } = $props();
 </script>

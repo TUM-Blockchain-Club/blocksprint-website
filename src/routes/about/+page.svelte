@@ -1,7 +1,7 @@
 <script>
 	import Footer from '$lib/components/footer.svelte';
 	import Timeline from '$lib/components/timeline.svelte';
-	import { ChevronRight, Key, Telescope, Linkedin } from 'lucide-svelte';
+	import { ChevronRight, Key, Telescope, Linkedin } from '@lucide/svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { blur } from 'svelte/transition';
 	import giga from '$lib/img/gigachad.jpeg';

@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { fade, blur } from 'svelte/transition';
 	import { onMount } from 'svelte';
-	import { Key, Telescope } from 'lucide-svelte';
+	import { Key, Telescope } from '@lucide/svelte';
 	import Partners from '$lib/components/partners.svelte';
 	import Testimonials from '$lib/components/testimonials.svelte';
 	import TalentPoolButton from '$lib/components/talentpool-button.svelte';
