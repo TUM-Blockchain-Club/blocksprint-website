@@ -10,6 +10,9 @@
 	import stakingfacilities from '$lib/img/stakingfacilities.svg';
 	import Marquee from 'svelte-fast-marquee';
 	import hauck from '$lib/img/hauck.svg';
+	import rolandberger from '$lib/img/rolandberger.svg';
+	import pwc from '$lib/img/pwc.svg';
+	import bitvavo from '$lib/img/bitvavo.svg';
 </script>
 
 <div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6">
@@ -30,7 +33,10 @@
 		<img src={hauck} alt="Hauck Aufhäuser" class="mx-auto h-6 sm:h-12" />
 		<img src={bosch} alt="Bosch" class="mx-auto h-4 sm:h-8" />
 		<img src={deloitte} alt="Deloitte" class="mx-auto h-4 sm:h-8" />
+		<img src={pwc} alt="PwC" class="mx-auto h-4 sm:h-8" />
 		<img src={munichre} alt="Munich Re" class="mx-auto h-4 sm:h-8" />
+		<img src={rolandberger} alt="Roland Berger" class="mx-auto h-4 sm:h-8" />
+		<img src={bitvavo} alt="Bitvavo" class="mx-auto h-2.5 sm:h-5" />
 		<img src={boersestuttgart} alt="Börse Stuttgart" class="mx-auto h-4 sm:h-8" />
 		<img src={wmdatenservice} alt="WM Datenservice" class="mx-auto h-4 sm:h-8" />
 		<img src={stablelab} alt="StableLab" class="mx-auto my-auto h-2.5 sm:h-5" />
