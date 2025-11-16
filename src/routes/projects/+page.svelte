@@ -58,29 +58,9 @@
 >
 	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Fall 2025</h2>
 	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
-		Upcoming
+		Current
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
-		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
-			<div class="flex w-fit">
-				<div class="-m-0.5">
-					<img src={hauck} alt="HADC" class="h-8" />
-				</div>
-			</div>
-			<h2 class="pt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
-				Framework for Smart Contract Lifecycle Management
-			</h2>
-			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-				Developing a framework for smart contract lifecycle management for tokenization projects.
-			</p>
-			<Button
-				href="https://tum-blockchain-dev.notion.site/HADC-Framework-for-Smart-Contract-Lifecycle-Management-in-Tokenization-Projects-25d486d1154d80a9be88e1a489d5eed7?source=copy_link"
-				target="_blank"
-				rel="noopener"
-				class="w-fit text-sm"
-				variant="secondary">Learn More</Button
-			>
-		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
 				<img src={pwc} alt="PWC" class="h-6" />
@@ -142,29 +122,10 @@
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
-				<img src={stakingfacilities} alt="Staking Facilities" class="h-6" />
-			</div>
-			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
-				Streaming Consensus Data in Sui Network
-			</h2>
-			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
-				Prototype real-time consensus data streaming to improve latency and responsiveness in the
-				Sui blockchain.
-			</p>
-			<Button
-				href="https://tum-blockchain-dev.notion.site/Staking-Facilities-Streaming-Consensus-Data-in-Sui-Network-268486d1154d807c8a21e89db08a2f34?source=copy_link"
-				target="_blank"
-				rel="noopener"
-				class="w-fit text-sm"
-				variant="secondary">Learn More</Button
-			>
-		</div>
-		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
-			<div class="flex w-fit">
-				<p>BMW & Tezos</p>
+				<p>BMW & ASC-S</p>
 			</div>
 			<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
-				BMW - Tezos (ENVITED-X to Etherlink)
+				BMW & ASC-S 
 			</h2>
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				Migrate ENVITED-X to Etherlink to enable secure, scalable automotive data sharing.
