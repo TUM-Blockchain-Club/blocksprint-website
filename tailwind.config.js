@@ -67,7 +67,8 @@ const config = {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				sans: [...fontFamily.sans]
+				sans: ['var(--font-geist-sans)', ...fontFamily.sans],
+				mono: ['var(--font-geist-mono)', ...fontFamily.mono]
 			},
 			keyframes: {
 				'accordion-down': {
@@ -87,10 +88,6 @@ const config = {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'caret-blink': 'caret-blink 1.25s ease-out infinite'
-			},
-			fontFamily: {
-				sans: ['Geist', ...fontFamily.sans],
-				mono: ['Geist Mono', ...fontFamily.mono]
 			}
 		}
 	},

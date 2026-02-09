@@ -34,6 +34,7 @@
 	"dependencies": {
 		"@jis3r/icons": "^1.2.0",
 		"@sveltejs/adapter-vercel": "^5.7.2",
+		"geist-svelte": "^1.0.0",
 		"iflog": "^0.3.0",
 		"svelte-fast-marquee": "^0.8.0"
 	},
