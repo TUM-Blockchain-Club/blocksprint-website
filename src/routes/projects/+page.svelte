@@ -124,9 +124,7 @@
 			<div class="flex w-fit">
 				<p>BMW & ASC-S</p>
 			</div>
-			<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
-				BMW & ASC-S 
-			</h2>
+			<h2 class="text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">BMW & ASC-S</h2>
 			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
 				Migrate ENVITED-X to Etherlink to enable secure, scalable automotive data sharing.
 			</p>
