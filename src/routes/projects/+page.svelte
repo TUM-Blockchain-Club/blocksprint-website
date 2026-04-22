@@ -122,7 +122,7 @@
 				variant="secondary">Learn More</Button
 			>
 		</div>
-		<div class="bg-zinc-950"></div>
+		<div class="hidden bg-zinc-950 sm:block"></div>
 	</div>
 </div>
 
