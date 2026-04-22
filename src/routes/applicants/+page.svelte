@@ -115,7 +115,6 @@
 		</p>
 		<Button
 			href="https://apply.tum-blockchain.com/blocksprint"
-			#href="https://apply.tum-blockchain.com/talent-pool"
 			class="w-fit text-sm"
 			variant="secondary">Apply for BlockSprint</Button
 		>

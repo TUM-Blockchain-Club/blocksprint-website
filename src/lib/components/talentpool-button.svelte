@@ -25,7 +25,6 @@
 >
 	<Button
 		href="https://apply.tum-blockchain.com/blocksprint"
-		#href="https://apply.tum-blockchain.com/talent-pool"
 		variant="ghost"
 		class="relative z-10 flex gap-1 hover:bg-zinc-900"
 	>
