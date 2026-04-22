@@ -75,13 +75,22 @@
 				Define Herita’s blockchain strategy and validate key concepts through prototypes while 
 				simultaneously laying foundations for ISO 27001-aligned, bank-grade security infrastructure.
 			</p>
-			<Button
-				href="https://tum-blockchain-dev.notion.site/Herita-Blockchain-Strategy-Prototyping-and-Security-Foundations-34a486d1154d80c8badbee19b1070eac?source=copy_link"
-				target="_blank"
-				rel="noopener"
-				class="w-fit text-sm"
-				variant="secondary">Learn More</Button
-			>
+			<div class="flex gap-3">
+				<Button
+					href="https://tum-blockchain-dev.notion.site/Herita-Blockchain-Strategy-Prototyping-and-Security-Foundations-34a486d1154d80c8badbee19b1070eac?source=copy_link"
+					target="_blank"
+					rel="noopener"
+					class="w-fit text-sm"
+					variant="secondary">Learn More</Button
+				>
+				<Button
+					href="https://apply.tum-blockchain.com/blocksprint"
+					target="_blank"
+					rel="noopener"
+					class="w-fit text-sm"
+					variant="secondary">Apply</Button
+				>
+			</div>
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
@@ -95,13 +104,22 @@
 				by expanding and integrating additional ground station providers, 
 				improving platform capabilities and exploring partnerships with future ground station partners.
 			</p>
-			<Button
-				href="https://tum-blockchain-dev.notion.site/Space-Computer-Orbitport-Platform-Expansion-34a486d1154d800684ffc65f345bc2e0?source=copy_link"
-				target="_blank"
-				rel="noopener"
-				class="w-fit text-sm"
-				variant="secondary">Learn More</Button
-			>
+			<div class="flex gap-3">
+				<Button
+					href="https://tum-blockchain-dev.notion.site/Space-Computer-Orbitport-Platform-Expansion-34a486d1154d800684ffc65f345bc2e0?source=copy_link"
+					target="_blank"
+					rel="noopener"
+					class="w-fit text-sm"
+					variant="secondary">Learn More</Button
+				>
+				<Button
+					href="https://apply.tum-blockchain.com/blocksprint"
+					target="_blank"
+					rel="noopener"
+					class="w-fit text-sm"
+					variant="secondary">Apply</Button
+				>
+			</div>
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
 			<div class="flex w-fit">
@@ -114,13 +132,22 @@
 				Analyze, stabilize and further develop an existing Web3-based loyalty platform, 
 				reducing external dependencies and preparing it for production use.
 			</p>
-			<Button
-				href="https://tum-blockchain-dev.notion.site/DG-Nexolution-Web3-Loyalty-Platform-Enhancement-34a486d1154d8056b1b6e8bd7fa37c3a?source=copy_link"
-				target="_blank"
-				rel="noopener"
-				class="w-fit text-sm"
-				variant="secondary">Learn More</Button
-			>
+			<div class="flex gap-3">
+				<Button
+					href="https://tum-blockchain-dev.notion.site/DG-Nexolution-Web3-Loyalty-Platform-Enhancement-34a486d1154d8056b1b6e8bd7fa37c3a?source=copy_link"
+					target="_blank"
+					rel="noopener"
+					class="w-fit text-sm"
+					variant="secondary">Learn More</Button
+				>
+				<Button
+					href="https://apply.tum-blockchain.com/blocksprint"
+					target="_blank"
+					rel="noopener"
+					class="w-fit text-sm"
+					variant="secondary">Apply</Button
+				>
+			</div>
 		</div>
 		<div class="hidden bg-zinc-950 sm:block"></div>
 	</div>
