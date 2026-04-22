@@ -13,6 +13,9 @@
 	import rolandberger from '$lib/img/rolandberger.svg';
 	import pwc from '$lib/img/pwc.svg';
 	import bitvavo from '$lib/img/bitvavo.svg';
+	import herita from '$lib/img/herita.svg';
+	import spacecomputer from '$lib/img/space_computer.svg';
+	import dgnexolution from '$lib/img/dg_nexolution.svg';
 </script>
 
 <div class="mx-auto mt-32 max-w-6xl px-3 sm:px-6">
@@ -43,5 +46,8 @@
 		<img src={stakingfacilities} alt="Staking Facilities" class="mx-auto h-4 sm:h-8" />
 		<img src={superteamgermany} alt="Superteam Germany" class="mx-auto h-4 sm:h-8" />
 		<img src={solanabeach} alt="Solanabeach" class="mx-auto h-4 sm:h-8" />
+		<img src={herita} alt="Herita" class="mx-auto h-4 sm:h-8" />
+		<img src={spacecomputer} alt="SpaceComputer" class="mx-auto h-4 sm:h-8" />
+	 	<img src={dgnexolution} alt="DG nexolution" class="mx-auto h-4 sm:h-8" />
 	</Marquee>
 </div>

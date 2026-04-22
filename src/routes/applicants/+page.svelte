@@ -25,23 +25,19 @@
 	import { onMount } from 'svelte';
 	let milestones = [
 		{
-			date: 'Sep 09, 2025',
+			date: 'Apr 22, 2026',
 			title: 'Application Period Opens'
 		},
 		{
-			date: 'Sep 21, 2025',
+			date: 'May 07, 2026',
 			title: 'Application Period Closes'
 		},
 		{
-			date: 'Oct 24, 2025',
+			date: 'May 28, 2026',
 			title: 'Kick-off Event'
 		},
 		{
-			date: 'Dec 05, 2025',
-			title: 'Mid-term Presentations'
-		},
-		{
-			date: 'Jan 16, 2026',
+			date: 'TBD, 2026',
 			title: 'Final Presentations'
 		}
 	];
@@ -118,9 +114,10 @@
 			salary!
 		</p>
 		<Button
-			href="https://apply.tum-blockchain.com/talent-pool"
+			href="https://apply.tum-blockchain.com/blocksprint"
+			#href="https://apply.tum-blockchain.com/talent-pool"
 			class="w-fit text-sm"
-			variant="secondary">Join our Talent Pool</Button
+			variant="secondary">Apply for BlockSprint</Button
 		>
 	</div>
 	<div class="order-2 flex items-center justify-center sm:order-1">
@@ -151,12 +148,12 @@
 			</h2>
 			<div class="flex flex-col gap-2">
 				<ul class="list-disc pl-4 text-sm text-muted-foreground sm:text-base">
-					<li>Start: Beginning of each semester (October - April)</li>
-					<li>Duration: 3 months</li>
+					<li>Start: Beginning of each semester</li>
+					<li>Duration: 3/6 months</li>
 					<li>Commitment: 15-20h per week</li>
 					<li>Teams: 2-4 students per project</li>
 					<li>Compensation: highly competitive</li>
-					<li>Application: starting 9th September 2025</li>
+					<li>Application: starting 22nd April 2026</li>
 				</ul>
 			</div>
 		</div>

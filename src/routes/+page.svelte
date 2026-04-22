@@ -72,7 +72,7 @@
 					class="text grid max-w-md grid-cols-2 text-sm text-muted-foreground sm:text-base md:text-lg"
 				>
 					<span class="font-semibold">Start Date:</span>
-					<span>April or October</span>
+					<span>Beginning of Semester</span>
 
 					<span class="font-semibold">Project Duration:</span>
 					<span>3 months</span>

@@ -24,12 +24,13 @@
 	style:--gradient-angle="{gradientAngle}deg"
 >
 	<Button
-		href="https://apply.tum-blockchain.com/talent-pool"
+		href="https://apply.tum-blockchain.com/blocksprint"
+		#href="https://apply.tum-blockchain.com/talent-pool"
 		variant="ghost"
 		class="relative z-10 flex gap-1 hover:bg-zinc-900"
 	>
 		<p class="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent">
-			Join our Talent Pool
+			Apply for BlockSprint
 		</p>
 		<ChevronRight class="h-5 w-5" />
 	</Button>

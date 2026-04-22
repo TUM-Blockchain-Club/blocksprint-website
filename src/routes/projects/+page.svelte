@@ -32,6 +32,9 @@
 	import rolandberger from '$lib/img/rolandberger.svg';
 	import pwc from '$lib/img/pwc.svg';
 	import bitvavo from '$lib/img/bitvavo.svg';
+	import herita from '$lib/img/herita.svg';
+	import spacecomputer from '$lib/img/space_computer.svg';
+	import dgnexolution from '$lib/img/dg_nexolution.svg';
 </script>
 
 <div
@@ -56,9 +59,80 @@
 	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
 	in:blur={{ delay: 50, duration: 500 }}
 >
-	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Fall 2025</h2>
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Spring 2026</h2>
 	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
 		Current
+	</p>
+	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={herita} alt="Herita" class="h-4" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Blockchain Strategy, Prototyping and Security Foundations 
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Define Herita’s blockchain strategy and validate key concepts through prototypes while 
+				simultaneously laying foundations for ISO 27001-aligned, bank-grade security infrastructure.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/Herita-Blockchain-Strategy-Prototyping-and-Security-Foundations-34a486d1154d80c8badbee19b1070eac?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={spacecomputer} alt="SpaceComputer" class="h-4" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Orbitport Platform Expansion
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Extend Orbitport, Space Computer’s gateway between Earth and orbital infrastructure 
+				by expanding and integrating additional ground station providers, 
+				improving platform capabilities and exploring partnerships with future ground station partners.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/Space-Computer-Orbitport-Platform-Expansion-34a486d1154d800684ffc65f345bc2e0?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
+			<div class="flex w-fit">
+				<img src={dgnexolution} alt="DG nexolution" class="h-4" />
+			</div>
+			<h2 class="mt-2 text-xl font-semibold text-foreground sm:text-2xl md:text-3xl">
+				Web3 Loyalty Platform Enhancement
+			</h2>
+			<p class="text max-w-md text-sm text-muted-foreground sm:text-base md:text-lg">
+				Analyze, stabilize and further develop an existing Web3-based loyalty platform, 
+				reducing external dependencies and preparing it for production use.
+			</p>
+			<Button
+				href="https://tum-blockchain-dev.notion.site/DG-Nexolution-Web3-Loyalty-Platform-Enhancement-34a486d1154d8056b1b6e8bd7fa37c3a?source=copy_link"
+				target="_blank"
+				rel="noopener"
+				class="w-fit text-sm"
+				variant="secondary">Learn More</Button
+			>
+		</div>
+		<div class="bg-zinc-950"></div>
+	</div>
+</div>
+
+<div
+	class="mx-auto my-24 flex max-w-6xl flex-col px-3 sm:my-48 sm:px-6"
+	in:blur={{ delay: 50, duration: 500 }}
+>
+	<h2 class="mb-1 text-center text-lg font-medium sm:text-xl md:text-2xl">Fall 2025</h2>
+	<p class="mx-auto mb-10 max-w-2xl text-center text-sm text-muted-foreground md:text-base">
+		Completed
 	</p>
 	<div class="grid grid-cols-1 gap-[1px] bg-zinc-900 sm:grid-cols-2">
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
