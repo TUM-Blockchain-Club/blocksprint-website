@@ -83,13 +83,6 @@
 					class="w-fit text-sm"
 					variant="secondary">Learn More</Button
 				>
-				<Button
-					href="https://apply.tum-blockchain.com/blocksprint"
-					target="_blank"
-					rel="noopener"
-					class="w-fit text-sm"
-					variant="secondary">Apply</Button
-				>
 			</div>
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
@@ -112,13 +105,6 @@
 					class="w-fit text-sm"
 					variant="secondary">Learn More</Button
 				>
-				<Button
-					href="https://apply.tum-blockchain.com/blocksprint"
-					target="_blank"
-					rel="noopener"
-					class="w-fit text-sm"
-					variant="secondary">Apply</Button
-				>
 			</div>
 		</div>
 		<div class="items-left flex flex-col gap-5 bg-zinc-950 px-3 py-10 sm:p-10">
@@ -139,13 +125,6 @@
 					rel="noopener"
 					class="w-fit text-sm"
 					variant="secondary">Learn More</Button
-				>
-				<Button
-					href="https://apply.tum-blockchain.com/blocksprint"
-					target="_blank"
-					rel="noopener"
-					class="w-fit text-sm"
-					variant="secondary">Apply</Button
 				>
 			</div>
 		</div>
